@@ -31,23 +31,22 @@
 - Protected values retained in suppressed AMR cells: none.
 - Raw, interim, isolate-level, credential or Streamlit-secret files tracked: none detected.
 
-## Publication boundary
+## Publication status
 
-The repository has no configured Git remote, and no authenticated GitHub
-connection is available in the working environment. Therefore, no GitHub push,
-public tag, GitHub release or Streamlit Community Cloud deployment was made.
-
-Public redistribution also remains gated on written confirmation that the
-applicable Vivli data-use agreement permits redistribution of the packaged
-aggregated derived tables. Technical disclosure checking does not replace that
-contractual review.
+- Vivli redistribution permission was confirmed by the project lead on 23 July 2026.
+- The public repository is available at
+  `https://github.com/NehaN28/vivli-amr-changing-world`.
+- The public tracked tree is byte-for-byte identical to the verified local
+  `v0.7.0` release tree (`66fa4179c5dac2a5388eed046f6818e0b5f0e71b`).
+- The public release-content commit is
+  `4bc425569b5ed895af54e4761bc33e2f84accb4e`.
+- Streamlit Community Cloud deployment and the final public tag/release remain
+  pending external hosting actions.
 
 ## Remaining external steps
 
-1. Confirm permission to redistribute the derived aggregate tables.
-2. Connect the intended GitHub account and create `vivli-amr-changing-world`.
-3. Push the frozen commit and tag `v0.7.0`.
-4. Confirm the GitHub Actions workflow passes.
-5. Deploy `app.py` from the tagged commit on Streamlit Community Cloud.
-6. Run the private-browser post-deployment checklist.
-7. Record permanent URLs and update `CITATION.cff`.
+1. Deploy `app.py` from `main` on Streamlit Community Cloud.
+2. Run the private-browser post-deployment checklist.
+3. Record the permanent dashboard URL.
+4. Create the final `v0.7.0` tag and GitHub release after the deployment record
+   contains the permanent URL.
