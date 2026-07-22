@@ -19,7 +19,7 @@ def test_release_versions_are_synchronised():
         citation["version"],
         project["project"]["pipeline_version"],
         __version__,
-    } == {"0.7.0"}
+    } == {"0.7.1"}
 
 
 def test_package_metadata_declares_dashboard_dependencies():
@@ -27,6 +27,15 @@ def test_package_metadata_declares_dashboard_dependencies():
     dependencies = pyproject["project"]["dependencies"]
     assert any(item.startswith("streamlit") for item in dependencies)
     assert any(item.startswith("plotly") for item in dependencies)
+
+
+def test_streamlit_requirements_install_local_package():
+    requirements = [
+        line.strip()
+        for line in (ROOT / "requirements.txt").read_text().splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    ]
+    assert "-e ." in requirements
 
 
 def test_streamlit_entry_point_smoke_test():

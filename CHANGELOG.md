@@ -2,6 +2,19 @@
 
 All notable changes to this project are documented here.
 
+## [0.7.1] - 2026-07-23
+
+### Fixed
+
+- Install the local `src/`-layout package when Streamlit Community Cloud
+  processes `requirements.txt`, resolving the production
+  `ModuleNotFoundError`.
+- Added a release regression test for the cloud installation contract.
+
+### Scientific status
+
+- No data, endpoint, exposure, model, estimate or interpretation changed.
+
 ## [0.7.0] - 2026-07-23
 
 ### Added

@@ -1,7 +1,7 @@
 project:
   title: "Human AMR trends in a changing world: geopolitical shocks, One Health determinants and global research investment"
   protocol_version: "1.0"
-  pipeline_version: "0.7.0"
+  pipeline_version: "0.7.1"
   phase1_frozen_date: "2026-07-23"
 
 windows:
