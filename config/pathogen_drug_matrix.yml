@@ -1,0 +1,104 @@
+endpoints:
+  - id: ECO_CAZ_R
+    species: Escherichia coli
+    drug: Ceftazidime
+    tier: Primary
+    who_group: Critical
+    phenotype: Third-generation cephalosporin-resistant Enterobacterales
+  - id: KPN_CAZ_R
+    species: Klebsiella pneumoniae
+    drug: Ceftazidime
+    tier: Primary
+    who_group: Critical
+    phenotype: Third-generation cephalosporin-resistant Enterobacterales
+  - id: KPN_MEM_R
+    species: Klebsiella pneumoniae
+    drug: Meropenem
+    tier: Primary
+    who_group: Critical
+    phenotype: Carbapenem-resistant Enterobacterales
+  - id: ABA_MEM_R
+    species: Acinetobacter baumannii
+    drug: Meropenem
+    tier: Primary
+    who_group: Critical
+    phenotype: Carbapenem-resistant Acinetobacter baumannii
+  - id: ECO_MEM_R
+    species: Escherichia coli
+    drug: Meropenem
+    tier: Secondary
+    who_group: Critical
+    phenotype: Carbapenem-resistant Enterobacterales
+  - id: PAE_MEM_R
+    species: Pseudomonas aeruginosa
+    drug: Meropenem
+    tier: Secondary
+    who_group: High
+    phenotype: Carbapenem-resistant Pseudomonas aeruginosa
+  - id: SAU_OXA_R
+    species: Staphylococcus aureus
+    drug: Oxacillin
+    tier: Secondary
+    who_group: High
+    phenotype: Methicillin-resistant Staphylococcus aureus
+  - id: EFA_VAN_R
+    species: Enterococcus faecium
+    drug: Vancomycin
+    tier: Exploratory
+    who_group: High
+    phenotype: Vancomycin-resistant Enterococcus faecium
+  - id: SPN_ERY_R
+    species: Streptococcus pneumoniae
+    drug: Erythromycin
+    tier: Secondary
+    who_group: Medium
+    phenotype: Macrolide-resistant Streptococcus pneumoniae
+  - id: HIN_AMP_R
+    species: Haemophilus influenzae
+    drug: Ampicillin
+    tier: Exploratory
+    who_group: Medium
+    phenotype: Ampicillin-resistant Haemophilus influenzae
+  - id: GAS_ERY_R
+    species: Streptococcus pyogenes
+    drug: Erythromycin
+    tier: Exploratory
+    who_group: Medium
+    phenotype: Macrolide-resistant Group A Streptococci
+  - id: ECO_CIP_R
+    species: Escherichia coli
+    drug: Ciprofloxacin
+    tier: Secondary
+    who_group: One Health supporting
+    phenotype: Fluoroquinolone resistance
+  - id: KPN_CIP_R
+    species: Klebsiella pneumoniae
+    drug: Ciprofloxacin
+    tier: Secondary
+    who_group: One Health supporting
+    phenotype: Fluoroquinolone resistance
+  - id: ECO_GEN_R
+    species: Escherichia coli
+    drug: Gentamicin
+    tier: Secondary
+    who_group: One Health supporting
+    phenotype: Aminoglycoside resistance
+  - id: KPN_GEN_R
+    species: Klebsiella pneumoniae
+    drug: Gentamicin
+    tier: Secondary
+    who_group: One Health supporting
+    phenotype: Aminoglycoside resistance
+  - id: ECO_COL_R
+    species: Escherichia coli
+    drug: Colistin
+    tier: Exploratory
+    who_group: One Health supporting
+    phenotype: Polymyxin resistance
+  - id: KPN_COL_R
+    species: Klebsiella pneumoniae
+    drug: Colistin
+    tier: Exploratory
+    who_group: One Health supporting
+    phenotype: Polymyxin resistance
+

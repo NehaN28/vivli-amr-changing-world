@@ -1,0 +1,1242 @@
+alias,country,iso3,m49,status,source,source_label
+acled::afghanistan,Afghanistan,AFG,004,current,acled,Afghanistan
+acled::akrotiri and dhekelia,,,,non_country,acled,Akrotiri and Dhekelia
+acled::albania,Albania,ALB,008,current,acled,Albania
+acled::algeria,Algeria,DZA,012,current,acled,Algeria
+acled::american samoa,American Samoa,ASM,016,current,acled,American Samoa
+acled::andorra,Andorra,AND,020,current,acled,Andorra
+acled::angola,Angola,AGO,024,current,acled,Angola
+acled::anguilla,Anguilla,AIA,660,current,acled,Anguilla
+acled::antarctica,Antarctica,ATA,010,current,acled,Antarctica
+acled::antigua and barbuda,Antigua and Barbuda,ATG,028,current,acled,Antigua and Barbuda
+acled::argentina,Argentina,ARG,032,current,acled,Argentina
+acled::armenia,Armenia,ARM,051,current,acled,Armenia
+acled::aruba,Aruba,ABW,533,current,acled,Aruba
+acled::atlantic ocean,,,,non_country,acled,Atlantic Ocean
+acled::australia,Australia,AUS,036,current,acled,Australia
+acled::austria,Austria,AUT,040,current,acled,Austria
+acled::azerbaijan,Azerbaijan,AZE,031,current,acled,Azerbaijan
+acled::bahamas,Bahamas,BHS,044,current,acled,Bahamas
+acled::bahrain,Bahrain,BHR,048,current,acled,Bahrain
+acled::bailiwick of guernsey,Guernsey,GGY,831,current,acled,Bailiwick of Guernsey
+acled::bailiwick of jersey,Jersey,JEY,832,current,acled,Bailiwick of Jersey
+acled::bangladesh,Bangladesh,BGD,050,current,acled,Bangladesh
+acled::barbados,Barbados,BRB,052,current,acled,Barbados
+acled::belarus,Belarus,BLR,112,current,acled,Belarus
+acled::belgium,Belgium,BEL,056,current,acled,Belgium
+acled::belize,Belize,BLZ,084,current,acled,Belize
+acled::benin,Benin,BEN,204,current,acled,Benin
+acled::bermuda,Bermuda,BMU,060,current,acled,Bermuda
+acled::bhutan,Bhutan,BTN,064,current,acled,Bhutan
+acled::bolivia,Bolivia,BOL,068,current,acled,Bolivia
+acled::bosnia and herzegovina,Bosnia and Herzegovina,BIH,070,current,acled,Bosnia and Herzegovina
+acled::botswana,Botswana,BWA,072,current,acled,Botswana
+acled::brazil,Brazil,BRA,076,current,acled,Brazil
+acled::british indian ocean territory,British Indian Ocean Territory,IOT,086,current,acled,British Indian Ocean Territory
+acled::british virgin islands,British Virgin Islands,VGB,092,current,acled,British Virgin Islands
+acled::brunei,Brunei,BRN,096,current,acled,Brunei
+acled::bulgaria,Bulgaria,BGR,100,current,acled,Bulgaria
+acled::burkina faso,Burkina Faso,BFA,854,current,acled,Burkina Faso
+acled::burundi,Burundi,BDI,108,current,acled,Burundi
+acled::cambodia,Cambodia,KHM,116,current,acled,Cambodia
+acled::cameroon,Cameroon,CMR,120,current,acled,Cameroon
+acled::canada,Canada,CAN,124,current,acled,Canada
+acled::cape verde,Cape Verde,CPV,132,current,acled,Cape Verde
+acled::caribbean netherlands,Caribbean Netherlands,BES,535,current,acled,Caribbean Netherlands
+acled::cayman islands,Cayman Islands,CYM,136,current,acled,Cayman Islands
+acled::central african republic,Central African Republic,CAF,140,current,acled,Central African Republic
+acled::chad,Chad,TCD,148,current,acled,Chad
+acled::chile,Chile,CHL,152,current,acled,Chile
+acled::china,China,CHN,156,current,acled,China
+acled::christmas island,Christmas Island,CXR,162,current,acled,Christmas Island
+acled::cocos (keeling) islands,Cocos (Keeling) Islands,CCK,166,current,acled,Cocos (Keeling) Islands
+acled::colombia,Colombia,COL,170,current,acled,Colombia
+acled::comoros,Comoros,COM,174,current,acled,Comoros
+acled::cook islands,Cook Islands,COK,184,current,acled,Cook Islands
+acled::costa rica,Costa Rica,CRI,188,current,acled,Costa Rica
+acled::croatia,Croatia,HRV,191,current,acled,Croatia
+acled::cuba,Cuba,CUB,192,current,acled,Cuba
+acled::curacao,Curaçao,CUW,531,current,acled,Curacao
+acled::cyprus,Cyprus,CYP,196,current,acled,Cyprus
+acled::czech republic,Czechia,CZE,203,current,acled,Czech Republic
+acled::democratic republic of congo,DR Congo,COD,180,current,acled,Democratic Republic of Congo
+acled::denmark,Denmark,DNK,208,current,acled,Denmark
+acled::djibouti,Djibouti,DJI,262,current,acled,Djibouti
+acled::dominica,Dominica,DMA,212,current,acled,Dominica
+acled::dominican republic,Dominican Republic,DOM,214,current,acled,Dominican Republic
+acled::east timor,Timor-Leste,TLS,626,current,acled,East Timor
+acled::ecuador,Ecuador,ECU,218,current,acled,Ecuador
+acled::egypt,Egypt,EGY,818,current,acled,Egypt
+acled::el salvador,El Salvador,SLV,222,current,acled,El Salvador
+acled::equatorial guinea,Equatorial Guinea,GNQ,226,current,acled,Equatorial Guinea
+acled::eritrea,Eritrea,ERI,232,current,acled,Eritrea
+acled::estonia,Estonia,EST,233,current,acled,Estonia
+acled::eswatini,Eswatini,SWZ,748,current,acled,eSwatini
+acled::ethiopia,Ethiopia,ETH,231,current,acled,Ethiopia
+acled::falkland islands,Falkland Islands,FLK,238,current,acled,Falkland Islands
+acled::faroe islands,Faroe Islands,FRO,234,current,acled,Faroe Islands
+acled::fiji,Fiji,FJI,242,current,acled,Fiji
+acled::finland,Finland,FIN,246,current,acled,Finland
+acled::france,France,FRA,250,current,acled,France
+acled::french guiana,French Guiana,GUF,254,current,acled,French Guiana
+acled::french polynesia,French Polynesia,PYF,258,current,acled,French Polynesia
+acled::french southern and antarctic lands,French Southern and Antarctic Lands,ATF,260,current,acled,French Southern and Antarctic Lands
+acled::gabon,Gabon,GAB,266,current,acled,Gabon
+acled::gambia,Gambia,GMB,270,current,acled,Gambia
+acled::georgia,Georgia,GEO,268,current,acled,Georgia
+acled::germany,Germany,DEU,276,current,acled,Germany
+acled::ghana,Ghana,GHA,288,current,acled,Ghana
+acled::gibraltar,Gibraltar,GIB,292,current,acled,Gibraltar
+acled::greece,Greece,GRC,300,current,acled,Greece
+acled::greenland,Greenland,GRL,304,current,acled,Greenland
+acled::grenada,Grenada,GRD,308,current,acled,Grenada
+acled::guadeloupe,Guadeloupe,GLP,312,current,acled,Guadeloupe
+acled::guam,Guam,GUM,316,current,acled,Guam
+acled::guatemala,Guatemala,GTM,320,current,acled,Guatemala
+acled::guinea,Guinea,GIN,324,current,acled,Guinea
+acled::guinea-bissau,Guinea-Bissau,GNB,624,current,acled,Guinea-Bissau
+acled::guyana,Guyana,GUY,328,current,acled,Guyana
+acled::haiti,Haiti,HTI,332,current,acled,Haiti
+acled::heard island and mcdonald islands,Heard Island and McDonald Islands,HMD,334,current,acled,Heard Island and McDonald Islands
+acled::honduras,Honduras,HND,340,current,acled,Honduras
+acled::hungary,Hungary,HUN,348,current,acled,Hungary
+acled::iceland,Iceland,ISL,352,current,acled,Iceland
+acled::india,India,IND,356,current,acled,India
+acled::indian ocean,,,,non_country,acled,Indian Ocean
+acled::indonesia,Indonesia,IDN,360,current,acled,Indonesia
+acled::iran,Iran,IRN,364,current,acled,Iran
+acled::iraq,Iraq,IRQ,368,current,acled,Iraq
+acled::ireland,Ireland,IRL,372,current,acled,Ireland
+acled::isle of man,Isle of Man,IMN,833,current,acled,Isle of Man
+acled::israel,Israel,ISR,376,current,acled,Israel
+acled::italy,Italy,ITA,380,current,acled,Italy
+acled::ivory coast,Ivory Coast,CIV,384,current,acled,Ivory Coast
+acled::jamaica,Jamaica,JAM,388,current,acled,Jamaica
+acled::japan,Japan,JPN,392,current,acled,Japan
+acled::jordan,Jordan,JOR,400,current,acled,Jordan
+acled::kazakhstan,Kazakhstan,KAZ,398,current,acled,Kazakhstan
+acled::kenya,Kenya,KEN,404,current,acled,Kenya
+acled::kiribati,Kiribati,KIR,296,current,acled,Kiribati
+acled::kosovo,Kosovo,UNK,,current,acled,Kosovo
+acled::kuwait,Kuwait,KWT,414,current,acled,Kuwait
+acled::kyrgyzstan,Kyrgyzstan,KGZ,417,current,acled,Kyrgyzstan
+acled::laos,Laos,LAO,418,current,acled,Laos
+acled::latvia,Latvia,LVA,428,current,acled,Latvia
+acled::lebanon,Lebanon,LBN,422,current,acled,Lebanon
+acled::lesotho,Lesotho,LSO,426,current,acled,Lesotho
+acled::liberia,Liberia,LBR,430,current,acled,Liberia
+acled::libya,Libya,LBY,434,current,acled,Libya
+acled::liechtenstein,Liechtenstein,LIE,438,current,acled,Liechtenstein
+acled::lithuania,Lithuania,LTU,440,current,acled,Lithuania
+acled::luxembourg,Luxembourg,LUX,442,current,acled,Luxembourg
+acled::madagascar,Madagascar,MDG,450,current,acled,Madagascar
+acled::malawi,Malawi,MWI,454,current,acled,Malawi
+acled::malaysia,Malaysia,MYS,458,current,acled,Malaysia
+acled::maldives,Maldives,MDV,462,current,acled,Maldives
+acled::mali,Mali,MLI,466,current,acled,Mali
+acled::malta,Malta,MLT,470,current,acled,Malta
+acled::marshall islands,Marshall Islands,MHL,584,current,acled,Marshall Islands
+acled::martinique,Martinique,MTQ,474,current,acled,Martinique
+acled::mauritania,Mauritania,MRT,478,current,acled,Mauritania
+acled::mauritius,Mauritius,MUS,480,current,acled,Mauritius
+acled::mayotte,Mayotte,MYT,175,current,acled,Mayotte
+acled::mediterranean sea,,,,non_country,acled,Mediterranean Sea
+acled::mexico,Mexico,MEX,484,current,acled,Mexico
+acled::micronesia,Micronesia,FSM,583,current,acled,Micronesia
+acled::moldova,Moldova,MDA,498,current,acled,Moldova
+acled::monaco,Monaco,MCO,492,current,acled,Monaco
+acled::mongolia,Mongolia,MNG,496,current,acled,Mongolia
+acled::montenegro,Montenegro,MNE,499,current,acled,Montenegro
+acled::montserrat,Montserrat,MSR,500,current,acled,Montserrat
+acled::morocco,Morocco,MAR,504,current,acled,Morocco
+acled::mozambique,Mozambique,MOZ,508,current,acled,Mozambique
+acled::myanmar,Myanmar,MMR,104,current,acled,Myanmar
+acled::namibia,Namibia,NAM,516,current,acled,Namibia
+acled::nauru,Nauru,NRU,520,current,acled,Nauru
+acled::nepal,Nepal,NPL,524,current,acled,Nepal
+acled::netherlands,Netherlands,NLD,528,current,acled,Netherlands
+acled::new caledonia,New Caledonia,NCL,540,current,acled,New Caledonia
+acled::new zealand,New Zealand,NZL,554,current,acled,New Zealand
+acled::nicaragua,Nicaragua,NIC,558,current,acled,Nicaragua
+acled::niger,Niger,NER,562,current,acled,Niger
+acled::nigeria,Nigeria,NGA,566,current,acled,Nigeria
+acled::niue,Niue,NIU,570,current,acled,Niue
+acled::norfolk island,Norfolk Island,NFK,574,current,acled,Norfolk Island
+acled::north korea,North Korea,PRK,408,current,acled,North Korea
+acled::north macedonia,North Macedonia,MKD,807,current,acled,North Macedonia
+acled::northern mariana islands,Northern Mariana Islands,MNP,580,current,acled,Northern Mariana Islands
+acled::norway,Norway,NOR,578,current,acled,Norway
+acled::oman,Oman,OMN,512,current,acled,Oman
+acled::pacific ocean,,,,non_country,acled,Pacific Ocean
+acled::pakistan,Pakistan,PAK,586,current,acled,Pakistan
+acled::palau,Palau,PLW,585,current,acled,Palau
+acled::palestine,Palestine,PSE,275,current,acled,Palestine
+acled::panama,Panama,PAN,591,current,acled,Panama
+acled::papua new guinea,Papua New Guinea,PNG,598,current,acled,Papua New Guinea
+acled::paraguay,Paraguay,PRY,600,current,acled,Paraguay
+acled::peru,Peru,PER,604,current,acled,Peru
+acled::philippines,Philippines,PHL,608,current,acled,Philippines
+acled::pitcairn,Pitcairn Islands,PCN,612,current,acled,Pitcairn
+acled::poland,Poland,POL,616,current,acled,Poland
+acled::portugal,Portugal,PRT,620,current,acled,Portugal
+acled::puerto rico,Puerto Rico,PRI,630,current,acled,Puerto Rico
+acled::qatar,Qatar,QAT,634,current,acled,Qatar
+acled::republic of congo,Republic of the Congo,COG,178,current,acled,Republic of Congo
+acled::reunion,Réunion,REU,638,current,acled,Reunion
+acled::romania,Romania,ROU,642,current,acled,Romania
+acled::russia,Russia,RUS,643,current,acled,Russia
+acled::rwanda,Rwanda,RWA,646,current,acled,Rwanda
+"acled::saint helena, ascension and tristan da cunha","Saint Helena, Ascension and Tristan da Cunha",SHN,654,current,acled,"Saint Helena, Ascension and Tristan da Cunha"
+acled::saint kitts and nevis,Saint Kitts and Nevis,KNA,659,current,acled,Saint Kitts and Nevis
+acled::saint lucia,Saint Lucia,LCA,662,current,acled,Saint Lucia
+acled::saint pierre and miquelon,Saint Pierre and Miquelon,SPM,666,current,acled,Saint Pierre and Miquelon
+acled::saint vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,acled,Saint Vincent and the Grenadines
+acled::saint-barthelemy,Saint Barthélemy,BLM,652,current,acled,Saint-Barthelemy
+acled::saint-martin,Saint Martin,MAF,663,current,acled,Saint-Martin
+acled::samoa,Samoa,WSM,882,current,acled,Samoa
+acled::san marino,San Marino,SMR,674,current,acled,San Marino
+acled::sao tome and principe,São Tomé and Príncipe,STP,678,current,acled,Sao Tome and Principe
+acled::saudi arabia,Saudi Arabia,SAU,682,current,acled,Saudi Arabia
+acled::senegal,Senegal,SEN,686,current,acled,Senegal
+acled::serbia,Serbia,SRB,688,current,acled,Serbia
+acled::seychelles,Seychelles,SYC,690,current,acled,Seychelles
+acled::sierra leone,Sierra Leone,SLE,694,current,acled,Sierra Leone
+acled::singapore,Singapore,SGP,702,current,acled,Singapore
+acled::sint maarten,Sint Maarten,SXM,534,current,acled,Sint Maarten
+acled::slovakia,Slovakia,SVK,703,current,acled,Slovakia
+acled::slovenia,Slovenia,SVN,705,current,acled,Slovenia
+acled::solomon islands,Solomon Islands,SLB,090,current,acled,Solomon Islands
+acled::somalia,Somalia,SOM,706,current,acled,Somalia
+acled::south africa,South Africa,ZAF,710,current,acled,South Africa
+acled::south georgia and the south sandwich islands,South Georgia,SGS,239,current,acled,South Georgia and the South Sandwich Islands
+acled::south korea,South Korea,KOR,410,current,acled,South Korea
+acled::south sudan,South Sudan,SSD,728,current,acled,South Sudan
+acled::southern ocean,,,,non_country,acled,Southern Ocean
+acled::spain,Spain,ESP,724,current,acled,Spain
+acled::sri lanka,Sri Lanka,LKA,144,current,acled,Sri Lanka
+acled::sudan,Sudan,SDN,729,current,acled,Sudan
+acled::suriname,Suriname,SUR,740,current,acled,Suriname
+acled::sweden,Sweden,SWE,752,current,acled,Sweden
+acled::switzerland,Switzerland,CHE,756,current,acled,Switzerland
+acled::syria,Syria,SYR,760,current,acled,Syria
+acled::taiwan,Taiwan,TWN,158,current,acled,Taiwan
+acled::tajikistan,Tajikistan,TJK,762,current,acled,Tajikistan
+acled::tanzania,Tanzania,TZA,834,current,acled,Tanzania
+acled::thailand,Thailand,THA,764,current,acled,Thailand
+acled::togo,Togo,TGO,768,current,acled,Togo
+acled::tokelau,Tokelau,TKL,772,current,acled,Tokelau
+acled::tonga,Tonga,TON,776,current,acled,Tonga
+acled::trinidad and tobago,Trinidad and Tobago,TTO,780,current,acled,Trinidad and Tobago
+acled::tunisia,Tunisia,TUN,788,current,acled,Tunisia
+acled::turkey,Türkiye,TUR,792,current,acled,Turkey
+acled::turkmenistan,Turkmenistan,TKM,795,current,acled,Turkmenistan
+acled::turks and caicos islands,Turks and Caicos Islands,TCA,796,current,acled,Turks and Caicos Islands
+acled::tuvalu,Tuvalu,TUV,798,current,acled,Tuvalu
+acled::uganda,Uganda,UGA,800,current,acled,Uganda
+acled::ukraine,Ukraine,UKR,804,current,acled,Ukraine
+acled::united arab emirates,United Arab Emirates,ARE,784,current,acled,United Arab Emirates
+acled::united kingdom,United Kingdom,GBR,826,current,acled,United Kingdom
+acled::united states,United States,USA,840,current,acled,United States
+acled::united states minor outlying islands,United States Minor Outlying Islands,UMI,581,current,acled,United States Minor Outlying Islands
+acled::uruguay,Uruguay,URY,858,current,acled,Uruguay
+acled::uzbekistan,Uzbekistan,UZB,860,current,acled,Uzbekistan
+acled::vanuatu,Vanuatu,VUT,548,current,acled,Vanuatu
+acled::vatican city,Vatican City,VAT,336,current,acled,Vatican City
+acled::venezuela,Venezuela,VEN,862,current,acled,Venezuela
+acled::vietnam,Vietnam,VNM,704,current,acled,Vietnam
+"acled::virgin islands, u.s.",United States Virgin Islands,VIR,850,current,acled,"Virgin Islands, U.S."
+acled::wallis and futuna,Wallis and Futuna,WLF,876,current,acled,Wallis and Futuna
+acled::yemen,Yemen,YEM,887,current,acled,Yemen
+acled::zambia,Zambia,ZMB,894,current,acled,Zambia
+acled::zimbabwe,Zimbabwe,ZWE,716,current,acled,Zimbabwe
+afghanistan,Afghanistan,AFG,004,current,generic,Afghanistan
+albania,Albania,ALB,008,current,generic,Albania
+algeria,Algeria,DZA,012,current,generic,Algeria
+american samoa,American Samoa,ASM,016,current,generic,American Samoa
+andorra,Andorra,AND,020,current,generic,Andorra
+angola,Angola,AGO,024,current,generic,Angola
+anguilla,Anguilla,AIA,660,current,generic,Anguilla
+antarctica,Antarctica,ATA,010,current,generic,Antarctica
+antigua and barbuda,Antigua and Barbuda,ATG,028,current,generic,Antigua and Barbuda
+argentina,Argentina,ARG,032,current,generic,Argentina
+armenia,Armenia,ARM,051,current,generic,Armenia
+aruba,Aruba,ABW,533,current,generic,Aruba
+atlas::argentina,Argentina,ARG,032,current,atlas,Argentina
+atlas::australia,Australia,AUS,036,current,atlas,Australia
+atlas::austria,Austria,AUT,040,current,atlas,Austria
+atlas::belgium,Belgium,BEL,056,current,atlas,Belgium
+atlas::brazil,Brazil,BRA,076,current,atlas,Brazil
+atlas::bulgaria,Bulgaria,BGR,100,current,atlas,Bulgaria
+atlas::cameroon,Cameroon,CMR,120,current,atlas,Cameroon
+atlas::canada,Canada,CAN,124,current,atlas,Canada
+atlas::chile,Chile,CHL,152,current,atlas,Chile
+atlas::china,China,CHN,156,current,atlas,China
+atlas::colombia,Colombia,COL,170,current,atlas,Colombia
+atlas::costa rica,Costa Rica,CRI,188,current,atlas,Costa Rica
+atlas::croatia,Croatia,HRV,191,current,atlas,Croatia
+atlas::czech republic,Czechia,CZE,203,current,atlas,Czech Republic
+atlas::denmark,Denmark,DNK,208,current,atlas,Denmark
+atlas::dominican republic,Dominican Republic,DOM,214,current,atlas,Dominican Republic
+atlas::egypt,Egypt,EGY,818,current,atlas,Egypt
+atlas::el salvador,El Salvador,SLV,222,current,atlas,El Salvador
+atlas::estonia,Estonia,EST,233,current,atlas,Estonia
+atlas::finland,Finland,FIN,246,current,atlas,Finland
+atlas::france,France,FRA,250,current,atlas,France
+atlas::germany,Germany,DEU,276,current,atlas,Germany
+atlas::ghana,Ghana,GHA,288,current,atlas,Ghana
+atlas::greece,Greece,GRC,300,current,atlas,Greece
+atlas::guatemala,Guatemala,GTM,320,current,atlas,Guatemala
+atlas::honduras,Honduras,HND,340,current,atlas,Honduras
+atlas::hong kong,Hong Kong,HKG,344,current,atlas,Hong Kong
+atlas::hungary,Hungary,HUN,348,current,atlas,Hungary
+atlas::india,India,IND,356,current,atlas,India
+atlas::indonesia,Indonesia,IDN,360,current,atlas,Indonesia
+atlas::ireland,Ireland,IRL,372,current,atlas,Ireland
+atlas::israel,Israel,ISR,376,current,atlas,Israel
+atlas::italy,Italy,ITA,380,current,atlas,Italy
+atlas::ivory coast,Ivory Coast,CIV,384,current,atlas,Ivory Coast
+atlas::jamaica,Jamaica,JAM,388,current,atlas,Jamaica
+atlas::japan,Japan,JPN,392,current,atlas,Japan
+atlas::jordan,Jordan,JOR,400,current,atlas,Jordan
+atlas::kenya,Kenya,KEN,404,current,atlas,Kenya
+"atlas::korea, south",South Korea,KOR,410,current,atlas,"Korea, South"
+atlas::kuwait,Kuwait,KWT,414,current,atlas,Kuwait
+atlas::latvia,Latvia,LVA,428,current,atlas,Latvia
+atlas::lebanon,Lebanon,LBN,422,current,atlas,Lebanon
+atlas::lithuania,Lithuania,LTU,440,current,atlas,Lithuania
+atlas::malawi,Malawi,MWI,454,current,atlas,Malawi
+atlas::malaysia,Malaysia,MYS,458,current,atlas,Malaysia
+atlas::mauritius,Mauritius,MUS,480,current,atlas,Mauritius
+atlas::mexico,Mexico,MEX,484,current,atlas,Mexico
+atlas::morocco,Morocco,MAR,504,current,atlas,Morocco
+atlas::namibia,Namibia,NAM,516,current,atlas,Namibia
+atlas::netherlands,Netherlands,NLD,528,current,atlas,Netherlands
+atlas::new zealand,New Zealand,NZL,554,current,atlas,New Zealand
+atlas::nicaragua,Nicaragua,NIC,558,current,atlas,Nicaragua
+atlas::nigeria,Nigeria,NGA,566,current,atlas,Nigeria
+atlas::norway,Norway,NOR,578,current,atlas,Norway
+atlas::oman,Oman,OMN,512,current,atlas,Oman
+atlas::pakistan,Pakistan,PAK,586,current,atlas,Pakistan
+atlas::panama,Panama,PAN,591,current,atlas,Panama
+atlas::philippines,Philippines,PHL,608,current,atlas,Philippines
+atlas::poland,Poland,POL,616,current,atlas,Poland
+atlas::portugal,Portugal,PRT,620,current,atlas,Portugal
+atlas::puerto rico,Puerto Rico,PRI,630,current,atlas,Puerto Rico
+atlas::qatar,Qatar,QAT,634,current,atlas,Qatar
+atlas::romania,Romania,ROU,642,current,atlas,Romania
+atlas::russia,Russia,RUS,643,current,atlas,Russia
+atlas::saudi arabia,Saudi Arabia,SAU,682,current,atlas,Saudi Arabia
+atlas::serbia,Serbia,SRB,688,current,atlas,Serbia
+atlas::singapore,Singapore,SGP,702,current,atlas,Singapore
+atlas::slovak republic,Slovakia,SVK,703,current,atlas,Slovak Republic
+atlas::slovenia,Slovenia,SVN,705,current,atlas,Slovenia
+atlas::south africa,South Africa,ZAF,710,current,atlas,South Africa
+atlas::spain,Spain,ESP,724,current,atlas,Spain
+atlas::sweden,Sweden,SWE,752,current,atlas,Sweden
+atlas::switzerland,Switzerland,CHE,756,current,atlas,Switzerland
+atlas::taiwan,Taiwan,TWN,158,current,atlas,Taiwan
+atlas::thailand,Thailand,THA,764,current,atlas,Thailand
+atlas::tunisia,Tunisia,TUN,788,current,atlas,Tunisia
+atlas::turkey,Türkiye,TUR,792,current,atlas,Turkey
+atlas::uganda,Uganda,UGA,800,current,atlas,Uganda
+atlas::ukraine,Ukraine,UKR,804,current,atlas,Ukraine
+atlas::united kingdom,United Kingdom,GBR,826,current,atlas,United Kingdom
+atlas::united states,United States,USA,840,current,atlas,United States
+atlas::venezuela,Venezuela,VEN,862,current,atlas,Venezuela
+atlas::vietnam,Vietnam,VNM,704,current,atlas,Vietnam
+australia,Australia,AUS,036,current,generic,Australia
+austria,Austria,AUT,040,current,generic,Austria
+azerbaijan,Azerbaijan,AZE,031,current,generic,Azerbaijan
+bahamas,Bahamas,BHS,044,current,generic,Bahamas
+bahrain,Bahrain,BHR,048,current,generic,Bahrain
+bangladesh,Bangladesh,BGD,050,current,generic,Bangladesh
+barbados,Barbados,BRB,052,current,generic,Barbados
+belarus,Belarus,BLR,112,current,generic,Belarus
+belgium,Belgium,BEL,056,current,generic,Belgium
+belize,Belize,BLZ,084,current,generic,Belize
+benin,Benin,BEN,204,current,generic,Benin
+bermuda,Bermuda,BMU,060,current,generic,Bermuda
+bhutan,Bhutan,BTN,064,current,generic,Bhutan
+bolivia,Bolivia,BOL,068,current,generic,Bolivia
+bosnia and herzegovina,Bosnia and Herzegovina,BIH,070,current,generic,Bosnia and Herzegovina
+botswana,Botswana,BWA,072,current,generic,Botswana
+brazil,Brazil,BRA,076,current,generic,Brazil
+british indian ocean territory,British Indian Ocean Territory,IOT,086,current,generic,British Indian Ocean Territory
+british virgin islands,British Virgin Islands,VGB,092,current,generic,British Virgin Islands
+brunei,Brunei,BRN,096,current,generic,Brunei
+bulgaria,Bulgaria,BGR,100,current,generic,Bulgaria
+burkina faso,Burkina Faso,BFA,854,current,generic,Burkina Faso
+burundi,Burundi,BDI,108,current,generic,Burundi
+cabo verde,Cabo Verde,CPV,132,current,generic,Cabo Verde
+cambodia,Cambodia,KHM,116,current,generic,Cambodia
+cameroon,Cameroon,CMR,120,current,generic,Cameroon
+canada,Canada,CAN,124,current,generic,Canada
+cape verde,Cape Verde,CPV,132,current,generic,Cape Verde
+caribbean netherlands,Caribbean Netherlands,BES,535,current,generic,Caribbean Netherlands
+cayman islands,Cayman Islands,CYM,136,current,generic,Cayman Islands
+central african republic,Central African Republic,CAF,140,current,generic,Central African Republic
+chad,Chad,TCD,148,current,generic,Chad
+chile,Chile,CHL,152,current,generic,Chile
+china,China,CHN,156,current,generic,China
+christmas island,Christmas Island,CXR,162,current,generic,Christmas Island
+cocos (keeling) islands,Cocos (Keeling) Islands,CCK,166,current,generic,Cocos (Keeling) Islands
+colombia,Colombia,COL,170,current,generic,Colombia
+comoros,Comoros,COM,174,current,generic,Comoros
+cook islands,Cook Islands,COK,184,current,generic,Cook Islands
+costa rica,Costa Rica,CRI,188,current,generic,Costa Rica
+croatia,Croatia,HRV,191,current,generic,Croatia
+cuba,Cuba,CUB,192,current,generic,Cuba
+curaçao,Curaçao,CUW,531,current,generic,Curaçao
+cyprus,Cyprus,CYP,196,current,generic,Cyprus
+czechia,Czechia,CZE,203,current,generic,Czechia
+denmark,Denmark,DNK,208,current,generic,Denmark
+djibouti,Djibouti,DJI,262,current,generic,Djibouti
+dominica,Dominica,DMA,212,current,generic,Dominica
+dominican republic,Dominican Republic,DOM,214,current,generic,Dominican Republic
+dr congo,DR Congo,COD,180,current,generic,DR Congo
+ecuador,Ecuador,ECU,218,current,generic,Ecuador
+egypt,Egypt,EGY,818,current,generic,Egypt
+el salvador,El Salvador,SLV,222,current,generic,El Salvador
+equatorial guinea,Equatorial Guinea,GNQ,226,current,generic,Equatorial Guinea
+eritrea,Eritrea,ERI,232,current,generic,Eritrea
+estonia,Estonia,EST,233,current,generic,Estonia
+eswatini,Eswatini,SWZ,748,current,generic,Eswatini
+ethiopia,Ethiopia,ETH,231,current,generic,Ethiopia
+falkland islands,Falkland Islands,FLK,238,current,generic,Falkland Islands
+faroe islands,Faroe Islands,FRO,234,current,generic,Faroe Islands
+fiji,Fiji,FJI,242,current,generic,Fiji
+finland,Finland,FIN,246,current,generic,Finland
+france,France,FRA,250,current,generic,France
+french guiana,French Guiana,GUF,254,current,generic,French Guiana
+french polynesia,French Polynesia,PYF,258,current,generic,French Polynesia
+french southern and antarctic lands,French Southern and Antarctic Lands,ATF,260,current,generic,French Southern and Antarctic Lands
+gabon,Gabon,GAB,266,current,generic,Gabon
+gambia,Gambia,GMB,270,current,generic,Gambia
+georgia,Georgia,GEO,268,current,generic,Georgia
+germany,Germany,DEU,276,current,generic,Germany
+ghana,Ghana,GHA,288,current,generic,Ghana
+gibraltar,Gibraltar,GIB,292,current,generic,Gibraltar
+greece,Greece,GRC,300,current,generic,Greece
+greenland,Greenland,GRL,304,current,generic,Greenland
+grenada,Grenada,GRD,308,current,generic,Grenada
+guadeloupe,Guadeloupe,GLP,312,current,generic,Guadeloupe
+guam,Guam,GUM,316,current,generic,Guam
+guatemala,Guatemala,GTM,320,current,generic,Guatemala
+guernsey,Guernsey,GGY,831,current,generic,Guernsey
+guinea,Guinea,GIN,324,current,generic,Guinea
+guinea-bissau,Guinea-Bissau,GNB,624,current,generic,Guinea-Bissau
+guyana,Guyana,GUY,328,current,generic,Guyana
+haiti,Haiti,HTI,332,current,generic,Haiti
+heard island and mcdonald islands,Heard Island and McDonald Islands,HMD,334,current,generic,Heard Island and McDonald Islands
+honduras,Honduras,HND,340,current,generic,Honduras
+hong kong,Hong Kong,HKG,344,current,generic,Hong Kong
+hungary,Hungary,HUN,348,current,generic,Hungary
+iceland,Iceland,ISL,352,current,generic,Iceland
+india,India,IND,356,current,generic,India
+indonesia,Indonesia,IDN,360,current,generic,Indonesia
+iran,Iran,IRN,364,current,generic,Iran
+iraq,Iraq,IRQ,368,current,generic,Iraq
+ireland,Ireland,IRL,372,current,generic,Ireland
+isle of man,Isle of Man,IMN,833,current,generic,Isle of Man
+israel,Israel,ISR,376,current,generic,Israel
+italy,Italy,ITA,380,current,generic,Italy
+ivory coast,Ivory Coast,CIV,384,current,generic,Ivory Coast
+jamaica,Jamaica,JAM,388,current,generic,Jamaica
+japan,Japan,JPN,392,current,generic,Japan
+jersey,Jersey,JEY,832,current,generic,Jersey
+jordan,Jordan,JOR,400,current,generic,Jordan
+kazakhstan,Kazakhstan,KAZ,398,current,generic,Kazakhstan
+kenya,Kenya,KEN,404,current,generic,Kenya
+kiribati,Kiribati,KIR,296,current,generic,Kiribati
+kosovo,Kosovo,UNK,,current,generic,Kosovo
+kuwait,Kuwait,KWT,414,current,generic,Kuwait
+kyrgyzstan,Kyrgyzstan,KGZ,417,current,generic,Kyrgyzstan
+laos,Laos,LAO,418,current,generic,Laos
+latvia,Latvia,LVA,428,current,generic,Latvia
+lebanon,Lebanon,LBN,422,current,generic,Lebanon
+lesotho,Lesotho,LSO,426,current,generic,Lesotho
+liberia,Liberia,LBR,430,current,generic,Liberia
+libya,Libya,LBY,434,current,generic,Libya
+liechtenstein,Liechtenstein,LIE,438,current,generic,Liechtenstein
+lithuania,Lithuania,LTU,440,current,generic,Lithuania
+livestock::afghanistan,Afghanistan,AFG,004,current,livestock,Afghanistan
+livestock::albania,Albania,ALB,008,current,livestock,Albania
+livestock::algeria,Algeria,DZA,012,current,livestock,Algeria
+livestock::angola,Angola,AGO,024,current,livestock,Angola
+livestock::antigua and barbuda,Antigua and Barbuda,ATG,028,current,livestock,Antigua and Barbuda
+livestock::argentina,Argentina,ARG,032,current,livestock,Argentina
+livestock::armenia,Armenia,ARM,051,current,livestock,Armenia
+livestock::australia,Australia,AUS,036,current,livestock,Australia
+livestock::austria,Austria,AUT,040,current,livestock,Austria
+livestock::azerbaijan,Azerbaijan,AZE,031,current,livestock,Azerbaijan
+livestock::bahamas,Bahamas,BHS,044,current,livestock,Bahamas
+livestock::bahrain,Bahrain,BHR,048,current,livestock,Bahrain
+livestock::bangladesh,Bangladesh,BGD,050,current,livestock,Bangladesh
+livestock::barbados,Barbados,BRB,052,current,livestock,Barbados
+livestock::belarus,Belarus,BLR,112,current,livestock,Belarus
+livestock::belgium,Belgium,BEL,056,current,livestock,Belgium
+livestock::belize,Belize,BLZ,084,current,livestock,Belize
+livestock::benin,Benin,BEN,204,current,livestock,Benin
+livestock::bhutan,Bhutan,BTN,064,current,livestock,Bhutan
+livestock::bolivia (plurinational state of),Bolivia,BOL,068,current,livestock,Bolivia (Plurinational State of)
+livestock::bosnia and herzegovina,Bosnia and Herzegovina,BIH,070,current,livestock,Bosnia and Herzegovina
+livestock::botswana,Botswana,BWA,072,current,livestock,Botswana
+livestock::brazil,Brazil,BRA,076,current,livestock,Brazil
+livestock::brunei darussalam,Brunei,BRN,096,current,livestock,Brunei Darussalam
+livestock::bulgaria,Bulgaria,BGR,100,current,livestock,Bulgaria
+livestock::burkina faso,Burkina Faso,BFA,854,current,livestock,Burkina Faso
+livestock::burundi,Burundi,BDI,108,current,livestock,Burundi
+livestock::cabo verde,Cabo Verde,CPV,132,current,livestock,Cabo Verde
+livestock::cambodia,Cambodia,KHM,116,current,livestock,Cambodia
+livestock::cameroon,Cameroon,CMR,120,current,livestock,Cameroon
+livestock::canada,Canada,CAN,124,current,livestock,Canada
+livestock::central african republic,Central African Republic,CAF,140,current,livestock,Central African Republic
+livestock::chad,Chad,TCD,148,current,livestock,Chad
+livestock::chile,Chile,CHL,152,current,livestock,Chile
+livestock::china,,,,aggregate,livestock,China
+"livestock::china, hong kong sar",Hong Kong,HKG,344,territory,livestock,"China, Hong Kong SAR"
+"livestock::china, macao sar",Macao,MAC,446,territory,livestock,"China, Macao SAR"
+"livestock::china, mainland",China,CHN,156,current,livestock,"China, mainland"
+"livestock::china, taiwan province of",Taiwan,TWN,158,current,livestock,"China, Taiwan Province of"
+livestock::colombia,Colombia,COL,170,current,livestock,Colombia
+livestock::comoros,Comoros,COM,174,current,livestock,Comoros
+livestock::congo,Republic of the Congo,COG,178,current,livestock,Congo
+livestock::cook islands,Cook Islands,COK,184,current,livestock,Cook Islands
+livestock::costa rica,Costa Rica,CRI,188,current,livestock,Costa Rica
+livestock::croatia,Croatia,HRV,191,current,livestock,Croatia
+livestock::cuba,Cuba,CUB,192,current,livestock,Cuba
+livestock::cyprus,Cyprus,CYP,196,current,livestock,Cyprus
+livestock::czechia,Czechia,CZE,203,current,livestock,Czechia
+livestock::côte d'ivoire,Ivory Coast,CIV,384,current,livestock,Côte d'Ivoire
+livestock::democratic people's republic of korea,North Korea,PRK,408,current,livestock,Democratic People's Republic of Korea
+livestock::democratic republic of the congo,DR Congo,COD,180,current,livestock,Democratic Republic of the Congo
+livestock::denmark,Denmark,DNK,208,current,livestock,Denmark
+livestock::djibouti,Djibouti,DJI,262,current,livestock,Djibouti
+livestock::dominica,Dominica,DMA,212,current,livestock,Dominica
+livestock::dominican republic,Dominican Republic,DOM,214,current,livestock,Dominican Republic
+livestock::ecuador,Ecuador,ECU,218,current,livestock,Ecuador
+livestock::egypt,Egypt,EGY,818,current,livestock,Egypt
+livestock::el salvador,El Salvador,SLV,222,current,livestock,El Salvador
+livestock::equatorial guinea,Equatorial Guinea,GNQ,226,current,livestock,Equatorial Guinea
+livestock::eritrea,Eritrea,ERI,232,current,livestock,Eritrea
+livestock::estonia,Estonia,EST,233,current,livestock,Estonia
+livestock::eswatini,Eswatini,SWZ,748,current,livestock,Eswatini
+livestock::ethiopia,Ethiopia,ETH,231,current,livestock,Ethiopia
+livestock::faroe islands,Faroe Islands,FRO,234,current,livestock,Faroe Islands
+livestock::fiji,Fiji,FJI,242,current,livestock,Fiji
+livestock::finland,Finland,FIN,246,current,livestock,Finland
+livestock::france,France,FRA,250,current,livestock,France
+livestock::french guiana,French Guiana,GUF,254,current,livestock,French Guiana
+livestock::french polynesia,French Polynesia,PYF,258,current,livestock,French Polynesia
+livestock::gabon,Gabon,GAB,266,current,livestock,Gabon
+livestock::gambia,Gambia,GMB,270,current,livestock,Gambia
+livestock::georgia,Georgia,GEO,268,current,livestock,Georgia
+livestock::germany,Germany,DEU,276,current,livestock,Germany
+livestock::ghana,Ghana,GHA,288,current,livestock,Ghana
+livestock::greece,Greece,GRC,300,current,livestock,Greece
+livestock::grenada,Grenada,GRD,308,current,livestock,Grenada
+livestock::guadeloupe,Guadeloupe,GLP,312,current,livestock,Guadeloupe
+livestock::guatemala,Guatemala,GTM,320,current,livestock,Guatemala
+livestock::guinea,Guinea,GIN,324,current,livestock,Guinea
+livestock::guinea-bissau,Guinea-Bissau,GNB,624,current,livestock,Guinea-Bissau
+livestock::guyana,Guyana,GUY,328,current,livestock,Guyana
+livestock::haiti,Haiti,HTI,332,current,livestock,Haiti
+livestock::honduras,Honduras,HND,340,current,livestock,Honduras
+livestock::hungary,Hungary,HUN,348,current,livestock,Hungary
+livestock::iceland,Iceland,ISL,352,current,livestock,Iceland
+livestock::india,India,IND,356,current,livestock,India
+livestock::indonesia,Indonesia,IDN,360,current,livestock,Indonesia
+livestock::iran (islamic republic of),Iran,IRN,364,current,livestock,Iran (Islamic Republic of)
+livestock::iraq,Iraq,IRQ,368,current,livestock,Iraq
+livestock::ireland,Ireland,IRL,372,current,livestock,Ireland
+livestock::israel,Israel,ISR,376,current,livestock,Israel
+livestock::italy,Italy,ITA,380,current,livestock,Italy
+livestock::jamaica,Jamaica,JAM,388,current,livestock,Jamaica
+livestock::japan,Japan,JPN,392,current,livestock,Japan
+livestock::jordan,Jordan,JOR,400,current,livestock,Jordan
+livestock::kazakhstan,Kazakhstan,KAZ,398,current,livestock,Kazakhstan
+livestock::kenya,Kenya,KEN,404,current,livestock,Kenya
+livestock::kiribati,Kiribati,KIR,296,current,livestock,Kiribati
+livestock::kuwait,Kuwait,KWT,414,current,livestock,Kuwait
+livestock::kyrgyzstan,Kyrgyzstan,KGZ,417,current,livestock,Kyrgyzstan
+livestock::lao people's democratic republic,Laos,LAO,418,current,livestock,Lao People's Democratic Republic
+livestock::latvia,Latvia,LVA,428,current,livestock,Latvia
+livestock::lebanon,Lebanon,LBN,422,current,livestock,Lebanon
+livestock::lesotho,Lesotho,LSO,426,current,livestock,Lesotho
+livestock::liberia,Liberia,LBR,430,current,livestock,Liberia
+livestock::libya,Libya,LBY,434,current,livestock,Libya
+livestock::lithuania,Lithuania,LTU,440,current,livestock,Lithuania
+livestock::luxembourg,Luxembourg,LUX,442,current,livestock,Luxembourg
+livestock::madagascar,Madagascar,MDG,450,current,livestock,Madagascar
+livestock::malawi,Malawi,MWI,454,current,livestock,Malawi
+livestock::malaysia,Malaysia,MYS,458,current,livestock,Malaysia
+livestock::mali,Mali,MLI,466,current,livestock,Mali
+livestock::malta,Malta,MLT,470,current,livestock,Malta
+livestock::martinique,Martinique,MTQ,474,current,livestock,Martinique
+livestock::mauritania,Mauritania,MRT,478,current,livestock,Mauritania
+livestock::mauritius,Mauritius,MUS,480,current,livestock,Mauritius
+livestock::mexico,Mexico,MEX,484,current,livestock,Mexico
+livestock::micronesia (federated states of),Micronesia,FSM,583,current,livestock,Micronesia (Federated States of)
+livestock::mongolia,Mongolia,MNG,496,current,livestock,Mongolia
+livestock::montenegro,Montenegro,MNE,499,current,livestock,Montenegro
+livestock::morocco,Morocco,MAR,504,current,livestock,Morocco
+livestock::mozambique,Mozambique,MOZ,508,current,livestock,Mozambique
+livestock::myanmar,Myanmar,MMR,104,current,livestock,Myanmar
+livestock::namibia,Namibia,NAM,516,current,livestock,Namibia
+livestock::naoero,Nauru,NRU,520,current,livestock,Naoero
+livestock::nepal,Nepal,NPL,524,current,livestock,Nepal
+livestock::netherlands (kingdom of the),Netherlands,NLD,528,current,livestock,Netherlands (Kingdom of the)
+livestock::new caledonia,New Caledonia,NCL,540,current,livestock,New Caledonia
+livestock::new zealand,New Zealand,NZL,554,current,livestock,New Zealand
+livestock::nicaragua,Nicaragua,NIC,558,current,livestock,Nicaragua
+livestock::niger,Niger,NER,562,current,livestock,Niger
+livestock::nigeria,Nigeria,NGA,566,current,livestock,Nigeria
+livestock::niue,Niue,NIU,570,current,livestock,Niue
+livestock::north macedonia,North Macedonia,MKD,807,current,livestock,North Macedonia
+livestock::norway,Norway,NOR,578,current,livestock,Norway
+livestock::oman,Oman,OMN,512,current,livestock,Oman
+livestock::pakistan,Pakistan,PAK,586,current,livestock,Pakistan
+livestock::palestine,Palestine,PSE,275,current,livestock,Palestine
+livestock::panama,Panama,PAN,591,current,livestock,Panama
+livestock::papua new guinea,Papua New Guinea,PNG,598,current,livestock,Papua New Guinea
+livestock::paraguay,Paraguay,PRY,600,current,livestock,Paraguay
+livestock::peru,Peru,PER,604,current,livestock,Peru
+livestock::philippines,Philippines,PHL,608,current,livestock,Philippines
+livestock::poland,Poland,POL,616,current,livestock,Poland
+livestock::portugal,Portugal,PRT,620,current,livestock,Portugal
+livestock::puerto rico,Puerto Rico,PRI,630,current,livestock,Puerto Rico
+livestock::qatar,Qatar,QAT,634,current,livestock,Qatar
+livestock::republic of korea,South Korea,KOR,410,current,livestock,Republic of Korea
+livestock::republic of moldova,Moldova,MDA,498,current,livestock,Republic of Moldova
+livestock::romania,Romania,ROU,642,current,livestock,Romania
+livestock::russian federation,Russia,RUS,643,current,livestock,Russian Federation
+livestock::rwanda,Rwanda,RWA,646,current,livestock,Rwanda
+livestock::réunion,Réunion,REU,638,current,livestock,Réunion
+livestock::saint kitts and nevis,Saint Kitts and Nevis,KNA,659,current,livestock,Saint Kitts and Nevis
+livestock::saint lucia,Saint Lucia,LCA,662,current,livestock,Saint Lucia
+livestock::saint vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,livestock,Saint Vincent and the Grenadines
+livestock::samoa,Samoa,WSM,882,current,livestock,Samoa
+livestock::sao tome and principe,São Tomé and Príncipe,STP,678,current,livestock,Sao Tome and Principe
+livestock::saudi arabia,Saudi Arabia,SAU,682,current,livestock,Saudi Arabia
+livestock::senegal,Senegal,SEN,686,current,livestock,Senegal
+livestock::serbia,Serbia,SRB,688,current,livestock,Serbia
+livestock::serbia and montenegro,,,,historical,livestock,Serbia and Montenegro
+livestock::seychelles,Seychelles,SYC,690,current,livestock,Seychelles
+livestock::sierra leone,Sierra Leone,SLE,694,current,livestock,Sierra Leone
+livestock::singapore,Singapore,SGP,702,current,livestock,Singapore
+livestock::slovakia,Slovakia,SVK,703,current,livestock,Slovakia
+livestock::slovenia,Slovenia,SVN,705,current,livestock,Slovenia
+livestock::solomon islands,Solomon Islands,SLB,090,current,livestock,Solomon Islands
+livestock::somalia,Somalia,SOM,706,current,livestock,Somalia
+livestock::south africa,South Africa,ZAF,710,current,livestock,South Africa
+livestock::south sudan,South Sudan,SSD,728,current,livestock,South Sudan
+livestock::spain,Spain,ESP,724,current,livestock,Spain
+livestock::sri lanka,Sri Lanka,LKA,144,current,livestock,Sri Lanka
+livestock::sudan,Sudan,SDN,729,current,livestock,Sudan
+livestock::sudan (former),,,,historical,livestock,Sudan (former)
+livestock::suriname,Suriname,SUR,740,current,livestock,Suriname
+livestock::sweden,Sweden,SWE,752,current,livestock,Sweden
+livestock::switzerland,Switzerland,CHE,756,current,livestock,Switzerland
+livestock::syrian arab republic,Syria,SYR,760,current,livestock,Syrian Arab Republic
+livestock::tajikistan,Tajikistan,TJK,762,current,livestock,Tajikistan
+livestock::thailand,Thailand,THA,764,current,livestock,Thailand
+livestock::timor-leste,Timor-Leste,TLS,626,current,livestock,Timor-Leste
+livestock::togo,Togo,TGO,768,current,livestock,Togo
+livestock::tonga,Tonga,TON,776,current,livestock,Tonga
+livestock::trinidad and tobago,Trinidad and Tobago,TTO,780,current,livestock,Trinidad and Tobago
+livestock::tunisia,Tunisia,TUN,788,current,livestock,Tunisia
+livestock::turkmenistan,Turkmenistan,TKM,795,current,livestock,Turkmenistan
+livestock::tuvalu,Tuvalu,TUV,798,current,livestock,Tuvalu
+livestock::türkiye,Türkiye,TUR,792,current,livestock,Türkiye
+livestock::uganda,Uganda,UGA,800,current,livestock,Uganda
+livestock::ukraine,Ukraine,UKR,804,current,livestock,Ukraine
+livestock::united arab emirates,United Arab Emirates,ARE,784,current,livestock,United Arab Emirates
+livestock::united kingdom of great britain and northern ireland,United Kingdom,GBR,826,current,livestock,United Kingdom of Great Britain and Northern Ireland
+livestock::united republic of tanzania,Tanzania,TZA,834,current,livestock,United Republic of Tanzania
+livestock::united states of america,United States,USA,840,current,livestock,United States of America
+livestock::uruguay,Uruguay,URY,858,current,livestock,Uruguay
+livestock::uzbekistan,Uzbekistan,UZB,860,current,livestock,Uzbekistan
+livestock::vanuatu,Vanuatu,VUT,548,current,livestock,Vanuatu
+livestock::venezuela (bolivarian republic of),Venezuela,VEN,862,current,livestock,Venezuela (Bolivarian Republic of)
+livestock::viet nam,Vietnam,VNM,704,current,livestock,Viet Nam
+livestock::yemen,Yemen,YEM,887,current,livestock,Yemen
+livestock::zambia,Zambia,ZMB,894,current,livestock,Zambia
+livestock::zimbabwe,Zimbabwe,ZWE,716,current,livestock,Zimbabwe
+luxembourg,Luxembourg,LUX,442,current,generic,Luxembourg
+macao,Macao,MAC,446,territory,generic,Macao
+madagascar,Madagascar,MDG,450,current,generic,Madagascar
+malawi,Malawi,MWI,454,current,generic,Malawi
+malaysia,Malaysia,MYS,458,current,generic,Malaysia
+maldives,Maldives,MDV,462,current,generic,Maldives
+mali,Mali,MLI,466,current,generic,Mali
+malta,Malta,MLT,470,current,generic,Malta
+marshall islands,Marshall Islands,MHL,584,current,generic,Marshall Islands
+martinique,Martinique,MTQ,474,current,generic,Martinique
+mauritania,Mauritania,MRT,478,current,generic,Mauritania
+mauritius,Mauritius,MUS,480,current,generic,Mauritius
+mayotte,Mayotte,MYT,175,current,generic,Mayotte
+mexico,Mexico,MEX,484,current,generic,Mexico
+micronesia,Micronesia,FSM,583,current,generic,Micronesia
+moldova,Moldova,MDA,498,current,generic,Moldova
+monaco,Monaco,MCO,492,current,generic,Monaco
+mongolia,Mongolia,MNG,496,current,generic,Mongolia
+montenegro,Montenegro,MNE,499,current,generic,Montenegro
+montserrat,Montserrat,MSR,500,current,generic,Montserrat
+morocco,Morocco,MAR,504,current,generic,Morocco
+mozambique,Mozambique,MOZ,508,current,generic,Mozambique
+myanmar,Myanmar,MMR,104,current,generic,Myanmar
+namibia,Namibia,NAM,516,current,generic,Namibia
+nauru,Nauru,NRU,520,current,generic,Nauru
+nepal,Nepal,NPL,524,current,generic,Nepal
+netherlands,Netherlands,NLD,528,current,generic,Netherlands
+new caledonia,New Caledonia,NCL,540,current,generic,New Caledonia
+new zealand,New Zealand,NZL,554,current,generic,New Zealand
+nicaragua,Nicaragua,NIC,558,current,generic,Nicaragua
+niger,Niger,NER,562,current,generic,Niger
+nigeria,Nigeria,NGA,566,current,generic,Nigeria
+niue,Niue,NIU,570,current,generic,Niue
+norfolk island,Norfolk Island,NFK,574,current,generic,Norfolk Island
+north korea,North Korea,PRK,408,current,generic,North Korea
+north macedonia,North Macedonia,MKD,807,current,generic,North Macedonia
+northern mariana islands,Northern Mariana Islands,MNP,580,current,generic,Northern Mariana Islands
+norway,Norway,NOR,578,current,generic,Norway
+oman,Oman,OMN,512,current,generic,Oman
+pakistan,Pakistan,PAK,586,current,generic,Pakistan
+palau,Palau,PLW,585,current,generic,Palau
+palestine,Palestine,PSE,275,current,generic,Palestine
+panama,Panama,PAN,591,current,generic,Panama
+papua new guinea,Papua New Guinea,PNG,598,current,generic,Papua New Guinea
+paraguay,Paraguay,PRY,600,current,generic,Paraguay
+peru,Peru,PER,604,current,generic,Peru
+philippines,Philippines,PHL,608,current,generic,Philippines
+pitcairn islands,Pitcairn Islands,PCN,612,current,generic,Pitcairn Islands
+poland,Poland,POL,616,current,generic,Poland
+portugal,Portugal,PRT,620,current,generic,Portugal
+puerto rico,Puerto Rico,PRI,630,current,generic,Puerto Rico
+qatar,Qatar,QAT,634,current,generic,Qatar
+rd::argentina,Argentina,ARG,032,current,rd,Argentina
+rd::australia,Australia,AUS,036,current,rd,Australia
+rd::austria,Austria,AUT,040,current,rd,Austria
+rd::bangladesh,Bangladesh,BGD,050,current,rd,Bangladesh
+rd::belgium,Belgium,BEL,056,current,rd,Belgium
+rd::benin,Benin,BEN,204,current,rd,Benin
+rd::bhutan,Bhutan,BTN,064,current,rd,Bhutan
+rd::bolivia,Bolivia,BOL,068,current,rd,Bolivia
+rd::botswana,Botswana,BWA,072,current,rd,Botswana
+rd::brazil,Brazil,BRA,076,current,rd,Brazil
+rd::bulgaria,Bulgaria,BGR,100,current,rd,Bulgaria
+rd::burkina faso,Burkina Faso,BFA,854,current,rd,Burkina Faso
+rd::cambodia,Cambodia,KHM,116,current,rd,Cambodia
+rd::cameroon,Cameroon,CMR,120,current,rd,Cameroon
+rd::canada,Canada,CAN,124,current,rd,Canada
+rd::chile,Chile,CHL,152,current,rd,Chile
+rd::china,China,CHN,156,current,rd,China
+rd::colombia,Colombia,COL,170,current,rd,Colombia
+rd::congo,Republic of the Congo,COG,178,current,rd,Congo
+rd::croatia,Croatia,HRV,191,current,rd,Croatia
+rd::cyprus,Cyprus,CYP,196,current,rd,Cyprus
+rd::czech republic,Czechia,CZE,203,current,rd,Czech Republic
+rd::czechia,Czechia,CZE,203,current,rd,Czechia
+rd::democratic republic of the congo,DR Congo,COD,180,current,rd,Democratic Republic of the Congo
+rd::denmark,Denmark,DNK,208,current,rd,Denmark
+"rd::denmark, south korea",,,,ambiguous,rd,"Denmark, South Korea"
+rd::dominica,Dominica,DMA,212,current,rd,Dominica
+rd::egypt,Egypt,EGY,818,current,rd,Egypt
+rd::estonia,Estonia,EST,233,current,rd,Estonia
+rd::ethiopia,Ethiopia,ETH,231,current,rd,Ethiopia
+rd::european union,,,,aggregate,rd,European Union
+rd::finland,Finland,FIN,246,current,rd,Finland
+rd::france,France,FRA,250,current,rd,France
+rd::gabon,Gabon,GAB,266,current,rd,Gabon
+rd::gambia,Gambia,GMB,270,current,rd,Gambia
+rd::georgia,Georgia,GEO,268,current,rd,Georgia
+rd::germany,Germany,DEU,276,current,rd,Germany
+rd::ghana,Ghana,GHA,288,current,rd,Ghana
+rd::global partnership,,,,aggregate,rd,Global Partnership
+rd::greece,Greece,GRC,300,current,rd,Greece
+rd::guyana,Guyana,GUY,328,current,rd,Guyana
+rd::hong kong,Hong Kong,HKG,344,current,rd,Hong Kong
+rd::hungary,Hungary,HUN,348,current,rd,Hungary
+rd::iceland,Iceland,ISL,352,current,rd,Iceland
+rd::india,India,IND,356,current,rd,India
+rd::indonesia,Indonesia,IDN,360,current,rd,Indonesia
+rd::ireland,Ireland,IRL,372,current,rd,Ireland
+rd::israel,Israel,ISR,376,current,rd,Israel
+rd::italy,Italy,ITA,380,current,rd,Italy
+rd::japan,Japan,JPN,392,current,rd,Japan
+rd::jordan,Jordan,JOR,400,current,rd,Jordan
+rd::kenya,Kenya,KEN,404,current,rd,Kenya
+"rd::korea, republic of",South Korea,KOR,410,current,rd,"Korea, Republic of"
+rd::kosovo,Kosovo,UNK,,current,rd,Kosovo
+rd::kyrgyzstan,Kyrgyzstan,KGZ,417,current,rd,Kyrgyzstan
+rd::lao people's democratic republic,Laos,LAO,418,current,rd,Lao People's Democratic Republic
+rd::latvia,Latvia,LVA,428,current,rd,Latvia
+rd::lithuania,Lithuania,LTU,440,current,rd,Lithuania
+rd::luxembourg,Luxembourg,LUX,442,current,rd,Luxembourg
+rd::madagascar,Madagascar,MDG,450,current,rd,Madagascar
+rd::malawi,Malawi,MWI,454,current,rd,Malawi
+rd::malaysia,Malaysia,MYS,458,current,rd,Malaysia
+rd::mali,Mali,MLI,466,current,rd,Mali
+rd::malta,Malta,MLT,470,current,rd,Malta
+rd::mexico,Mexico,MEX,484,current,rd,Mexico
+"rd::moldova, republic of",Moldova,MDA,498,current,rd,"Moldova, Republic of"
+rd::morocco,Morocco,MAR,504,current,rd,Morocco
+rd::mozambique,Mozambique,MOZ,508,current,rd,Mozambique
+rd::namibia,Namibia,NAM,516,current,rd,Namibia
+rd::nepal,Nepal,NPL,524,current,rd,Nepal
+rd::netherlands,Netherlands,NLD,528,current,rd,Netherlands
+rd::new zealand,New Zealand,NZL,554,current,rd,New Zealand
+rd::nigeria,Nigeria,NGA,566,current,rd,Nigeria
+rd::norway,Norway,NOR,578,current,rd,Norway
+rd::pakistan,Pakistan,PAK,586,current,rd,Pakistan
+"rd::palestinian territory, occupied",Palestine,PSE,275,current,rd,"Palestinian Territory, Occupied"
+rd::papua new guinea,Papua New Guinea,PNG,598,current,rd,Papua New Guinea
+rd::peru,Peru,PER,604,current,rd,Peru
+rd::philippines,Philippines,PHL,608,current,rd,Philippines
+rd::poland,Poland,POL,616,current,rd,Poland
+rd::portugal,Portugal,PRT,620,current,rd,Portugal
+rd::qatar,Qatar,QAT,634,current,rd,Qatar
+rd::reunion,Réunion,REU,638,current,rd,Reunion
+rd::romania,Romania,ROU,642,current,rd,Romania
+rd::russian federation,Russia,RUS,643,current,rd,Russian Federation
+rd::rwanda,Rwanda,RWA,646,current,rd,Rwanda
+rd::senegal,Senegal,SEN,686,current,rd,Senegal
+rd::singapore,Singapore,SGP,702,current,rd,Singapore
+rd::slovakia,Slovakia,SVK,703,current,rd,Slovakia
+rd::slovenia,Slovenia,SVN,705,current,rd,Slovenia
+rd::south africa,South Africa,ZAF,710,current,rd,South Africa
+rd::spain,Spain,ESP,724,current,rd,Spain
+rd::st. vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,rd,St. Vincent and the Grenadines
+rd::sudan,Sudan,SDN,729,current,rd,Sudan
+rd::sweden,Sweden,SWE,752,current,rd,Sweden
+rd::switzerland,Switzerland,CHE,756,current,rd,Switzerland
+"rd::tanzania, united republic of",Tanzania,TZA,834,current,rd,"Tanzania, United Republic of"
+rd::thailand,Thailand,THA,764,current,rd,Thailand
+rd::togo,Togo,TGO,768,current,rd,Togo
+rd::tunisia,Tunisia,TUN,788,current,rd,Tunisia
+rd::turkey,Türkiye,TUR,792,current,rd,Turkey
+rd::uganda,Uganda,UGA,800,current,rd,Uganda
+rd::ukraine,Ukraine,UKR,804,current,rd,Ukraine
+rd::united kingdom,United Kingdom,GBR,826,current,rd,United Kingdom
+rd::united states,United States,USA,840,current,rd,United States
+rd::uruguay,Uruguay,URY,858,current,rd,Uruguay
+rd::uzbekistan,Uzbekistan,UZB,860,current,rd,Uzbekistan
+rd::viet nam,Vietnam,VNM,704,current,rd,Viet Nam
+rd::zambia,Zambia,ZMB,894,current,rd,Zambia
+rd::zimbabwe,Zimbabwe,ZWE,716,current,rd,Zimbabwe
+republic of the congo,Republic of the Congo,COG,178,current,generic,Republic of the Congo
+romania,Romania,ROU,642,current,generic,Romania
+russia,Russia,RUS,643,current,generic,Russia
+rwanda,Rwanda,RWA,646,current,generic,Rwanda
+réunion,Réunion,REU,638,current,generic,Réunion
+saint barthélemy,Saint Barthélemy,BLM,652,current,generic,Saint Barthélemy
+"saint helena, ascension and tristan da cunha","Saint Helena, Ascension and Tristan da Cunha",SHN,654,current,generic,"Saint Helena, Ascension and Tristan da Cunha"
+saint kitts and nevis,Saint Kitts and Nevis,KNA,659,current,generic,Saint Kitts and Nevis
+saint lucia,Saint Lucia,LCA,662,current,generic,Saint Lucia
+saint martin,Saint Martin,MAF,663,current,generic,Saint Martin
+saint pierre and miquelon,Saint Pierre and Miquelon,SPM,666,current,generic,Saint Pierre and Miquelon
+saint vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,generic,Saint Vincent and the Grenadines
+samoa,Samoa,WSM,882,current,generic,Samoa
+san marino,San Marino,SMR,674,current,generic,San Marino
+saudi arabia,Saudi Arabia,SAU,682,current,generic,Saudi Arabia
+senegal,Senegal,SEN,686,current,generic,Senegal
+serbia,Serbia,SRB,688,current,generic,Serbia
+seychelles,Seychelles,SYC,690,current,generic,Seychelles
+sierra leone,Sierra Leone,SLE,694,current,generic,Sierra Leone
+singapore,Singapore,SGP,702,current,generic,Singapore
+sint maarten,Sint Maarten,SXM,534,current,generic,Sint Maarten
+slovakia,Slovakia,SVK,703,current,generic,Slovakia
+slovenia,Slovenia,SVN,705,current,generic,Slovenia
+solomon islands,Solomon Islands,SLB,090,current,generic,Solomon Islands
+somalia,Somalia,SOM,706,current,generic,Somalia
+south africa,South Africa,ZAF,710,current,generic,South Africa
+south georgia,South Georgia,SGS,239,current,generic,South Georgia
+south korea,South Korea,KOR,410,current,generic,South Korea
+south sudan,South Sudan,SSD,728,current,generic,South Sudan
+spain,Spain,ESP,724,current,generic,Spain
+sri lanka,Sri Lanka,LKA,144,current,generic,Sri Lanka
+sudan,Sudan,SDN,729,current,generic,Sudan
+suriname,Suriname,SUR,740,current,generic,Suriname
+svalbard and jan mayen,Svalbard and Jan Mayen,SJM,744,current,generic,Svalbard and Jan Mayen
+sweden,Sweden,SWE,752,current,generic,Sweden
+switzerland,Switzerland,CHE,756,current,generic,Switzerland
+syria,Syria,SYR,760,current,generic,Syria
+são tomé and príncipe,São Tomé and Príncipe,STP,678,current,generic,São Tomé and Príncipe
+taiwan,Taiwan,TWN,158,current,generic,Taiwan
+tajikistan,Tajikistan,TJK,762,current,generic,Tajikistan
+tanzania,Tanzania,TZA,834,current,generic,Tanzania
+temperature::afghanistan,Afghanistan,AFG,004,current,temperature,Afghanistan
+temperature::africa,,,,aggregate,temperature,Africa
+temperature::albania,Albania,ALB,008,current,temperature,Albania
+temperature::algeria,Algeria,DZA,012,current,temperature,Algeria
+temperature::american samoa,American Samoa,ASM,016,current,temperature,American Samoa
+temperature::americas,,,,aggregate,temperature,Americas
+temperature::andorra,Andorra,AND,020,current,temperature,Andorra
+temperature::angola,Angola,AGO,024,current,temperature,Angola
+temperature::anguilla,Anguilla,AIA,660,current,temperature,Anguilla
+temperature::annex i countries,,,,aggregate,temperature,Annex I countries
+temperature::antarctica,Antarctica,ATA,010,current,temperature,Antarctica
+temperature::antigua and barbuda,Antigua and Barbuda,ATG,028,current,temperature,Antigua and Barbuda
+temperature::argentina,Argentina,ARG,032,current,temperature,Argentina
+temperature::armenia,Armenia,ARM,051,current,temperature,Armenia
+temperature::aruba,Aruba,ABW,533,current,temperature,Aruba
+"temperature::ascension, saint helena and tristan da cunha","Saint Helena, Ascension and Tristan da Cunha",SHN,654,territory,temperature,"Ascension, Saint Helena and Tristan da Cunha"
+temperature::asia,,,,aggregate,temperature,Asia
+temperature::australia,Australia,AUS,036,current,temperature,Australia
+temperature::australia and new zealand,,,,aggregate,temperature,Australia and New Zealand
+temperature::austria,Austria,AUT,040,current,temperature,Austria
+temperature::azerbaijan,Azerbaijan,AZE,031,current,temperature,Azerbaijan
+temperature::bahamas,Bahamas,BHS,044,current,temperature,Bahamas
+temperature::bahrain,Bahrain,BHR,048,current,temperature,Bahrain
+temperature::bangladesh,Bangladesh,BGD,050,current,temperature,Bangladesh
+temperature::barbados,Barbados,BRB,052,current,temperature,Barbados
+temperature::belarus,Belarus,BLR,112,current,temperature,Belarus
+temperature::belgium,Belgium,BEL,056,current,temperature,Belgium
+temperature::belgium-luxembourg,,,,historical,temperature,Belgium-Luxembourg
+temperature::belize,Belize,BLZ,084,current,temperature,Belize
+temperature::benin,Benin,BEN,204,current,temperature,Benin
+temperature::bhutan,Bhutan,BTN,064,current,temperature,Bhutan
+temperature::bolivia (plurinational state of),Bolivia,BOL,068,current,temperature,Bolivia (Plurinational State of)
+temperature::bosnia and herzegovina,Bosnia and Herzegovina,BIH,070,current,temperature,Bosnia and Herzegovina
+temperature::botswana,Botswana,BWA,072,current,temperature,Botswana
+temperature::brazil,Brazil,BRA,076,current,temperature,Brazil
+temperature::british virgin islands,British Virgin Islands,VGB,092,current,temperature,British Virgin Islands
+temperature::brunei darussalam,Brunei,BRN,096,current,temperature,Brunei Darussalam
+temperature::bulgaria,Bulgaria,BGR,100,current,temperature,Bulgaria
+temperature::burkina faso,Burkina Faso,BFA,854,current,temperature,Burkina Faso
+temperature::burundi,Burundi,BDI,108,current,temperature,Burundi
+temperature::cabo verde,Cabo Verde,CPV,132,current,temperature,Cabo Verde
+temperature::cambodia,Cambodia,KHM,116,current,temperature,Cambodia
+temperature::cameroon,Cameroon,CMR,120,current,temperature,Cameroon
+temperature::canada,Canada,CAN,124,current,temperature,Canada
+temperature::caribbean,,,,aggregate,temperature,Caribbean
+temperature::cayman islands,Cayman Islands,CYM,136,current,temperature,Cayman Islands
+temperature::central african republic,Central African Republic,CAF,140,current,temperature,Central African Republic
+temperature::central america,,,,aggregate,temperature,Central America
+temperature::central asia,,,,aggregate,temperature,Central Asia
+temperature::chad,Chad,TCD,148,current,temperature,Chad
+temperature::channel islands,,,,aggregate,temperature,Channel Islands
+temperature::chile,Chile,CHL,152,current,temperature,Chile
+temperature::china,,,,aggregate,temperature,China
+"temperature::china, hong kong sar",Hong Kong,HKG,344,territory,temperature,"China, Hong Kong SAR"
+"temperature::china, macao sar",Macao,MAC,446,territory,temperature,"China, Macao SAR"
+"temperature::china, mainland",China,CHN,156,current,temperature,"China, mainland"
+"temperature::china, taiwan province of",Taiwan,TWN,158,current,temperature,"China, Taiwan Province of"
+temperature::christmas island,Christmas Island,CXR,162,current,temperature,Christmas Island
+temperature::cocos (keeling) islands,Cocos (Keeling) Islands,CCK,166,current,temperature,Cocos (Keeling) Islands
+temperature::colombia,Colombia,COL,170,current,temperature,Colombia
+temperature::comoros,Comoros,COM,174,current,temperature,Comoros
+temperature::congo,Republic of the Congo,COG,178,current,temperature,Congo
+temperature::cook islands,Cook Islands,COK,184,current,temperature,Cook Islands
+temperature::costa rica,Costa Rica,CRI,188,current,temperature,Costa Rica
+temperature::croatia,Croatia,HRV,191,current,temperature,Croatia
+temperature::cuba,Cuba,CUB,192,current,temperature,Cuba
+temperature::cyprus,Cyprus,CYP,196,current,temperature,Cyprus
+temperature::czechia,Czechia,CZE,203,current,temperature,Czechia
+temperature::czechoslovakia,,,,historical,temperature,Czechoslovakia
+temperature::côte d'ivoire,Ivory Coast,CIV,384,current,temperature,Côte d'Ivoire
+temperature::democratic people's republic of korea,North Korea,PRK,408,current,temperature,Democratic People's Republic of Korea
+temperature::democratic republic of the congo,DR Congo,COD,180,current,temperature,Democratic Republic of the Congo
+temperature::denmark,Denmark,DNK,208,current,temperature,Denmark
+temperature::djibouti,Djibouti,DJI,262,current,temperature,Djibouti
+temperature::dominica,Dominica,DMA,212,current,temperature,Dominica
+temperature::dominican republic,Dominican Republic,DOM,214,current,temperature,Dominican Republic
+temperature::eastern africa,,,,aggregate,temperature,Eastern Africa
+temperature::eastern asia,,,,aggregate,temperature,Eastern Asia
+temperature::eastern europe,,,,aggregate,temperature,Eastern Europe
+temperature::ecuador,Ecuador,ECU,218,current,temperature,Ecuador
+temperature::egypt,Egypt,EGY,818,current,temperature,Egypt
+temperature::el salvador,El Salvador,SLV,222,current,temperature,El Salvador
+temperature::equatorial guinea,Equatorial Guinea,GNQ,226,current,temperature,Equatorial Guinea
+temperature::eritrea,Eritrea,ERI,232,current,temperature,Eritrea
+temperature::estonia,Estonia,EST,233,current,temperature,Estonia
+temperature::eswatini,Eswatini,SWZ,748,current,temperature,Eswatini
+temperature::ethiopia,Ethiopia,ETH,231,current,temperature,Ethiopia
+temperature::ethiopia pdr,,,,historical,temperature,Ethiopia PDR
+temperature::europe,,,,aggregate,temperature,Europe
+temperature::european union (27),,,,aggregate,temperature,European Union (27)
+temperature::falkland islands (malvinas),Falkland Islands,FLK,238,current,temperature,Falkland Islands (Malvinas)
+temperature::faroe islands,Faroe Islands,FRO,234,current,temperature,Faroe Islands
+temperature::fiji,Fiji,FJI,242,current,temperature,Fiji
+temperature::finland,Finland,FIN,246,current,temperature,Finland
+temperature::france,France,FRA,250,current,temperature,France
+temperature::french guiana,French Guiana,GUF,254,current,temperature,French Guiana
+temperature::french polynesia,French Polynesia,PYF,258,current,temperature,French Polynesia
+temperature::french southern territories,French Southern and Antarctic Lands,ATF,260,current,temperature,French Southern Territories
+temperature::gabon,Gabon,GAB,266,current,temperature,Gabon
+temperature::gambia,Gambia,GMB,270,current,temperature,Gambia
+temperature::georgia,Georgia,GEO,268,current,temperature,Georgia
+temperature::germany,Germany,DEU,276,current,temperature,Germany
+temperature::ghana,Ghana,GHA,288,current,temperature,Ghana
+temperature::gibraltar,Gibraltar,GIB,292,current,temperature,Gibraltar
+temperature::greece,Greece,GRC,300,current,temperature,Greece
+temperature::greenland,Greenland,GRL,304,current,temperature,Greenland
+temperature::grenada,Grenada,GRD,308,current,temperature,Grenada
+temperature::guadeloupe,Guadeloupe,GLP,312,current,temperature,Guadeloupe
+temperature::guatemala,Guatemala,GTM,320,current,temperature,Guatemala
+temperature::guernsey,Guernsey,GGY,831,current,temperature,Guernsey
+temperature::guinea,Guinea,GIN,324,current,temperature,Guinea
+temperature::guinea-bissau,Guinea-Bissau,GNB,624,current,temperature,Guinea-Bissau
+temperature::guyana,Guyana,GUY,328,current,temperature,Guyana
+temperature::haiti,Haiti,HTI,332,current,temperature,Haiti
+temperature::holy see,Vatican City,VAT,336,current,temperature,Holy See
+temperature::honduras,Honduras,HND,340,current,temperature,Honduras
+temperature::hungary,Hungary,HUN,348,current,temperature,Hungary
+temperature::iceland,Iceland,ISL,352,current,temperature,Iceland
+temperature::india,India,IND,356,current,temperature,India
+temperature::indonesia,Indonesia,IDN,360,current,temperature,Indonesia
+temperature::iran (islamic republic of),Iran,IRN,364,current,temperature,Iran (Islamic Republic of)
+temperature::iraq,Iraq,IRQ,368,current,temperature,Iraq
+temperature::ireland,Ireland,IRL,372,current,temperature,Ireland
+temperature::isle of man,Isle of Man,IMN,833,current,temperature,Isle of Man
+temperature::israel,Israel,ISR,376,current,temperature,Israel
+temperature::italy,Italy,ITA,380,current,temperature,Italy
+temperature::jamaica,Jamaica,JAM,388,current,temperature,Jamaica
+temperature::japan,Japan,JPN,392,current,temperature,Japan
+temperature::jersey,Jersey,JEY,832,current,temperature,Jersey
+temperature::jordan,Jordan,JOR,400,current,temperature,Jordan
+temperature::kazakhstan,Kazakhstan,KAZ,398,current,temperature,Kazakhstan
+temperature::kenya,Kenya,KEN,404,current,temperature,Kenya
+temperature::kiribati,Kiribati,KIR,296,current,temperature,Kiribati
+temperature::kuwait,Kuwait,KWT,414,current,temperature,Kuwait
+temperature::kyrgyzstan,Kyrgyzstan,KGZ,417,current,temperature,Kyrgyzstan
+temperature::land locked developing countries (lldcs),,,,aggregate,temperature,Land Locked Developing Countries (LLDCs)
+temperature::lao people's democratic republic,Laos,LAO,418,current,temperature,Lao People's Democratic Republic
+temperature::latin america and the caribbean,,,,aggregate,temperature,Latin America and the Caribbean
+temperature::latvia,Latvia,LVA,428,current,temperature,Latvia
+temperature::least developed countries (ldcs),,,,aggregate,temperature,Least Developed Countries (LDCs)
+temperature::lebanon,Lebanon,LBN,422,current,temperature,Lebanon
+temperature::lesotho,Lesotho,LSO,426,current,temperature,Lesotho
+temperature::liberia,Liberia,LBR,430,current,temperature,Liberia
+temperature::libya,Libya,LBY,434,current,temperature,Libya
+temperature::liechtenstein,Liechtenstein,LIE,438,current,temperature,Liechtenstein
+temperature::lithuania,Lithuania,LTU,440,current,temperature,Lithuania
+temperature::low income food deficit countries (lifdcs),,,,aggregate,temperature,Low Income Food Deficit Countries (LIFDCs)
+temperature::luxembourg,Luxembourg,LUX,442,current,temperature,Luxembourg
+temperature::madagascar,Madagascar,MDG,450,current,temperature,Madagascar
+temperature::malawi,Malawi,MWI,454,current,temperature,Malawi
+temperature::malaysia,Malaysia,MYS,458,current,temperature,Malaysia
+temperature::maldives,Maldives,MDV,462,current,temperature,Maldives
+temperature::mali,Mali,MLI,466,current,temperature,Mali
+temperature::malta,Malta,MLT,470,current,temperature,Malta
+temperature::marshall islands,Marshall Islands,MHL,584,current,temperature,Marshall Islands
+temperature::martinique,Martinique,MTQ,474,current,temperature,Martinique
+temperature::mauritania,Mauritania,MRT,478,current,temperature,Mauritania
+temperature::mauritius,Mauritius,MUS,480,current,temperature,Mauritius
+temperature::mayotte,Mayotte,MYT,175,current,temperature,Mayotte
+temperature::melanesia,,,,aggregate,temperature,Melanesia
+temperature::mexico,Mexico,MEX,484,current,temperature,Mexico
+temperature::micronesia,Micronesia,FSM,583,current,temperature,Micronesia
+temperature::micronesia (federated states of),Micronesia,FSM,583,current,temperature,Micronesia (Federated States of)
+temperature::middle africa,,,,aggregate,temperature,Middle Africa
+temperature::midway island,United States Minor Outlying Islands,UMI,581,territory,temperature,Midway Island
+temperature::monaco,Monaco,MCO,492,current,temperature,Monaco
+temperature::mongolia,Mongolia,MNG,496,current,temperature,Mongolia
+temperature::montenegro,Montenegro,MNE,499,current,temperature,Montenegro
+temperature::montserrat,Montserrat,MSR,500,current,temperature,Montserrat
+temperature::morocco,Morocco,MAR,504,current,temperature,Morocco
+temperature::mozambique,Mozambique,MOZ,508,current,temperature,Mozambique
+temperature::myanmar,Myanmar,MMR,104,current,temperature,Myanmar
+temperature::namibia,Namibia,NAM,516,current,temperature,Namibia
+temperature::nauru,Nauru,NRU,520,current,temperature,Nauru
+temperature::nepal,Nepal,NPL,524,current,temperature,Nepal
+temperature::net food importing developing countries (nfidcs),,,,aggregate,temperature,Net Food Importing Developing Countries (NFIDCs)
+temperature::netherlands (kingdom of the),Netherlands,NLD,528,current,temperature,Netherlands (Kingdom of the)
+temperature::netherlands antilles (former),,,,historical,temperature,Netherlands Antilles (former)
+temperature::new caledonia,New Caledonia,NCL,540,current,temperature,New Caledonia
+temperature::new zealand,New Zealand,NZL,554,current,temperature,New Zealand
+temperature::nicaragua,Nicaragua,NIC,558,current,temperature,Nicaragua
+temperature::niger,Niger,NER,562,current,temperature,Niger
+temperature::nigeria,Nigeria,NGA,566,current,temperature,Nigeria
+temperature::niue,Niue,NIU,570,current,temperature,Niue
+temperature::non-annex i countries,,,,aggregate,temperature,Non-Annex I countries
+temperature::norfolk island,Norfolk Island,NFK,574,current,temperature,Norfolk Island
+temperature::north macedonia,North Macedonia,MKD,807,current,temperature,North Macedonia
+temperature::northern africa,,,,aggregate,temperature,Northern Africa
+temperature::northern america,,,,aggregate,temperature,Northern America
+temperature::northern europe,,,,aggregate,temperature,Northern Europe
+temperature::norway,Norway,NOR,578,current,temperature,Norway
+temperature::oceania,,,,aggregate,temperature,Oceania
+temperature::oecd,,,,aggregate,temperature,OECD
+temperature::oman,Oman,OMN,512,current,temperature,Oman
+temperature::pacific islands trust territory,,,,historical,temperature,Pacific Islands Trust Territory
+temperature::pakistan,Pakistan,PAK,586,current,temperature,Pakistan
+temperature::palau,Palau,PLW,585,current,temperature,Palau
+temperature::palestine,Palestine,PSE,275,current,temperature,Palestine
+temperature::panama,Panama,PAN,591,current,temperature,Panama
+temperature::papua new guinea,Papua New Guinea,PNG,598,current,temperature,Papua New Guinea
+temperature::paraguay,Paraguay,PRY,600,current,temperature,Paraguay
+temperature::peru,Peru,PER,604,current,temperature,Peru
+temperature::philippines,Philippines,PHL,608,current,temperature,Philippines
+temperature::pitcairn,Pitcairn Islands,PCN,612,current,temperature,Pitcairn
+temperature::poland,Poland,POL,616,current,temperature,Poland
+temperature::polynesia,,,,aggregate,temperature,Polynesia
+temperature::portugal,Portugal,PRT,620,current,temperature,Portugal
+temperature::puerto rico,Puerto Rico,PRI,630,current,temperature,Puerto Rico
+temperature::qatar,Qatar,QAT,634,current,temperature,Qatar
+temperature::republic of korea,South Korea,KOR,410,current,temperature,Republic of Korea
+temperature::republic of moldova,Moldova,MDA,498,current,temperature,Republic of Moldova
+temperature::romania,Romania,ROU,642,current,temperature,Romania
+temperature::russian federation,Russia,RUS,643,current,temperature,Russian Federation
+temperature::rwanda,Rwanda,RWA,646,current,temperature,Rwanda
+temperature::réunion,Réunion,REU,638,current,temperature,Réunion
+temperature::saint kitts and nevis,Saint Kitts and Nevis,KNA,659,current,temperature,Saint Kitts and Nevis
+temperature::saint lucia,Saint Lucia,LCA,662,current,temperature,Saint Lucia
+temperature::saint pierre and miquelon,Saint Pierre and Miquelon,SPM,666,current,temperature,Saint Pierre and Miquelon
+temperature::saint vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,temperature,Saint Vincent and the Grenadines
+temperature::samoa,Samoa,WSM,882,current,temperature,Samoa
+temperature::san marino,San Marino,SMR,674,current,temperature,San Marino
+temperature::sao tome and principe,São Tomé and Príncipe,STP,678,current,temperature,Sao Tome and Principe
+temperature::saudi arabia,Saudi Arabia,SAU,682,current,temperature,Saudi Arabia
+temperature::senegal,Senegal,SEN,686,current,temperature,Senegal
+temperature::serbia,Serbia,SRB,688,current,temperature,Serbia
+temperature::serbia and montenegro,,,,historical,temperature,Serbia and Montenegro
+temperature::seychelles,Seychelles,SYC,690,current,temperature,Seychelles
+temperature::sierra leone,Sierra Leone,SLE,694,current,temperature,Sierra Leone
+temperature::singapore,Singapore,SGP,702,current,temperature,Singapore
+temperature::slovakia,Slovakia,SVK,703,current,temperature,Slovakia
+temperature::slovenia,Slovenia,SVN,705,current,temperature,Slovenia
+temperature::small island developing states (sids),,,,aggregate,temperature,Small Island Developing States (SIDS)
+temperature::solomon islands,Solomon Islands,SLB,090,current,temperature,Solomon Islands
+temperature::somalia,Somalia,SOM,706,current,temperature,Somalia
+temperature::south africa,South Africa,ZAF,710,current,temperature,South Africa
+temperature::south america,,,,aggregate,temperature,South America
+temperature::south georgia and the south sandwich islands,South Georgia,SGS,239,current,temperature,South Georgia and the South Sandwich Islands
+temperature::south sudan,South Sudan,SSD,728,current,temperature,South Sudan
+temperature::south-eastern asia,,,,aggregate,temperature,South-eastern Asia
+temperature::southern africa,,,,aggregate,temperature,Southern Africa
+temperature::southern asia,,,,aggregate,temperature,Southern Asia
+temperature::southern europe,,,,aggregate,temperature,Southern Europe
+temperature::spain,Spain,ESP,724,current,temperature,Spain
+temperature::sri lanka,Sri Lanka,LKA,144,current,temperature,Sri Lanka
+temperature::sub-saharan africa,,,,aggregate,temperature,Sub-Saharan Africa
+temperature::sudan,Sudan,SDN,729,current,temperature,Sudan
+temperature::sudan (former),,,,historical,temperature,Sudan (former)
+temperature::suriname,Suriname,SUR,740,current,temperature,Suriname
+temperature::svalbard and jan mayen islands,Svalbard and Jan Mayen,SJM,744,current,temperature,Svalbard and Jan Mayen Islands
+temperature::sweden,Sweden,SWE,752,current,temperature,Sweden
+temperature::switzerland,Switzerland,CHE,756,current,temperature,Switzerland
+temperature::syrian arab republic,Syria,SYR,760,current,temperature,Syrian Arab Republic
+temperature::tajikistan,Tajikistan,TJK,762,current,temperature,Tajikistan
+temperature::thailand,Thailand,THA,764,current,temperature,Thailand
+temperature::timor-leste,Timor-Leste,TLS,626,current,temperature,Timor-Leste
+temperature::togo,Togo,TGO,768,current,temperature,Togo
+temperature::tokelau,Tokelau,TKL,772,current,temperature,Tokelau
+temperature::tonga,Tonga,TON,776,current,temperature,Tonga
+temperature::trinidad and tobago,Trinidad and Tobago,TTO,780,current,temperature,Trinidad and Tobago
+temperature::tunisia,Tunisia,TUN,788,current,temperature,Tunisia
+temperature::turkmenistan,Turkmenistan,TKM,795,current,temperature,Turkmenistan
+temperature::turks and caicos islands,Turks and Caicos Islands,TCA,796,current,temperature,Turks and Caicos Islands
+temperature::tuvalu,Tuvalu,TUV,798,current,temperature,Tuvalu
+temperature::türkiye,Türkiye,TUR,792,current,temperature,Türkiye
+temperature::uganda,Uganda,UGA,800,current,temperature,Uganda
+temperature::ukraine,Ukraine,UKR,804,current,temperature,Ukraine
+temperature::united arab emirates,United Arab Emirates,ARE,784,current,temperature,United Arab Emirates
+temperature::united kingdom of great britain and northern ireland,United Kingdom,GBR,826,current,temperature,United Kingdom of Great Britain and Northern Ireland
+temperature::united republic of tanzania,Tanzania,TZA,834,current,temperature,United Republic of Tanzania
+temperature::united states of america,United States,USA,840,current,temperature,United States of America
+temperature::united states virgin islands,United States Virgin Islands,VIR,850,current,temperature,United States Virgin Islands
+temperature::uruguay,Uruguay,URY,858,current,temperature,Uruguay
+temperature::ussr,,,,historical,temperature,USSR
+temperature::uzbekistan,Uzbekistan,UZB,860,current,temperature,Uzbekistan
+temperature::vanuatu,Vanuatu,VUT,548,current,temperature,Vanuatu
+temperature::venezuela (bolivarian republic of),Venezuela,VEN,862,current,temperature,Venezuela (Bolivarian Republic of)
+temperature::viet nam,Vietnam,VNM,704,current,temperature,Viet Nam
+temperature::wake island,United States Minor Outlying Islands,UMI,581,territory,temperature,Wake Island
+temperature::wallis and futuna islands,Wallis and Futuna,WLF,876,territory,temperature,Wallis and Futuna Islands
+temperature::western africa,,,,aggregate,temperature,Western Africa
+temperature::western asia,,,,aggregate,temperature,Western Asia
+temperature::western europe,,,,aggregate,temperature,Western Europe
+temperature::western sahara,Western Sahara,ESH,732,current,temperature,Western Sahara
+temperature::world,,,,aggregate,temperature,World
+temperature::yemen,Yemen,YEM,887,current,temperature,Yemen
+temperature::yugoslav sfr,,,,historical,temperature,Yugoslav SFR
+temperature::zambia,Zambia,ZMB,894,current,temperature,Zambia
+temperature::zimbabwe,Zimbabwe,ZWE,716,current,temperature,Zimbabwe
+thailand,Thailand,THA,764,current,generic,Thailand
+timor-leste,Timor-Leste,TLS,626,current,generic,Timor-Leste
+togo,Togo,TGO,768,current,generic,Togo
+tokelau,Tokelau,TKL,772,current,generic,Tokelau
+tonga,Tonga,TON,776,current,generic,Tonga
+trinidad and tobago,Trinidad and Tobago,TTO,780,current,generic,Trinidad and Tobago
+tunisia,Tunisia,TUN,788,current,generic,Tunisia
+turkmenistan,Turkmenistan,TKM,795,current,generic,Turkmenistan
+turks and caicos islands,Turks and Caicos Islands,TCA,796,current,generic,Turks and Caicos Islands
+tuvalu,Tuvalu,TUV,798,current,generic,Tuvalu
+türkiye,Türkiye,TUR,792,current,generic,Türkiye
+uganda,Uganda,UGA,800,current,generic,Uganda
+ukraine,Ukraine,UKR,804,current,generic,Ukraine
+united arab emirates,United Arab Emirates,ARE,784,current,generic,United Arab Emirates
+united kingdom,United Kingdom,GBR,826,current,generic,United Kingdom
+united states,United States,USA,840,current,generic,United States
+united states minor outlying islands,United States Minor Outlying Islands,UMI,581,current,generic,United States Minor Outlying Islands
+united states virgin islands,United States Virgin Islands,VIR,850,current,generic,United States Virgin Islands
+uruguay,Uruguay,URY,858,current,generic,Uruguay
+uzbekistan,Uzbekistan,UZB,860,current,generic,Uzbekistan
+vanuatu,Vanuatu,VUT,548,current,generic,Vanuatu
+vatican city,Vatican City,VAT,336,current,generic,Vatican City
+venezuela,Venezuela,VEN,862,current,generic,Venezuela
+vietnam,Vietnam,VNM,704,current,generic,Vietnam
+wallis and futuna,Wallis and Futuna,WLF,876,current,generic,Wallis and Futuna
+western sahara,Western Sahara,ESH,732,current,generic,Western Sahara
+woah::albania,Albania,ALB,008,current,woah,ALBANIA
+woah::armenia,Armenia,ARM,051,current,woah,ARMENIA
+woah::austria,Austria,AUT,040,current,woah,AUSTRIA
+woah::azerbaijan,Azerbaijan,AZE,031,current,woah,AZERBAIJAN
+woah::bahamas,Bahamas,BHS,044,current,woah,BAHAMAS
+woah::belgium,Belgium,BEL,056,current,woah,BELGIUM
+woah::benin,Benin,BEN,204,current,woah,BENIN
+woah::bolivia,Bolivia,BOL,068,current,woah,BOLIVIA
+woah::bosnia and herzegovina,Bosnia and Herzegovina,BIH,070,current,woah,BOSNIA AND HERZEGOVINA
+woah::bulgaria,Bulgaria,BGR,100,current,woah,BULGARIA
+woah::canada,Canada,CAN,124,current,woah,CANADA
+woah::cape verde,Cape Verde,CPV,132,current,woah,CAPE VERDE
+woah::congo (rep. of the),Republic of the Congo,COG,178,current,woah,CONGO (REP. OF THE)
+woah::costa rica,Costa Rica,CRI,188,current,woah,COSTA RICA
+woah::croatia,Croatia,HRV,191,current,woah,CROATIA
+woah::cuba,Cuba,CUB,192,current,woah,CUBA
+woah::cyprus,Cyprus,CYP,196,current,woah,CYPRUS
+woah::denmark,Denmark,DNK,208,current,woah,DENMARK
+woah::egypt,Egypt,EGY,818,current,woah,EGYPT
+woah::estonia,Estonia,EST,233,current,woah,ESTONIA
+woah::eswatini,Eswatini,SWZ,748,current,woah,ESWATINI
+woah::finland,Finland,FIN,246,current,woah,FINLAND
+woah::france,France,FRA,250,current,woah,FRANCE
+woah::gabon,Gabon,GAB,266,current,woah,GABON
+woah::georgia,Georgia,GEO,268,current,woah,GEORGIA
+woah::iceland,Iceland,ISL,352,current,woah,ICELAND
+woah::ireland,Ireland,IRL,372,current,woah,IRELAND
+woah::israel,Israel,ISR,376,current,woah,ISRAEL
+woah::italy,Italy,ITA,380,current,woah,ITALY
+woah::kenya,Kenya,KEN,404,current,woah,KENYA
+woah::latvia,Latvia,LVA,428,current,woah,LATVIA
+woah::lithuania,Lithuania,LTU,440,current,woah,LITHUANIA
+woah::luxembourg,Luxembourg,LUX,442,current,woah,LUXEMBOURG
+woah::malawi,Malawi,MWI,454,current,woah,MALAWI
+woah::mali,Mali,MLI,466,current,woah,MALI
+woah::malta,Malta,MLT,470,current,woah,MALTA
+woah::moldova,Moldova,MDA,498,current,woah,MOLDOVA
+woah::montenegro,Montenegro,MNE,499,current,woah,MONTENEGRO
+woah::myanmar,Myanmar,MMR,104,current,woah,MYANMAR
+woah::new caledonia,New Caledonia,NCL,540,current,woah,NEW CALEDONIA
+woah::new zealand,New Zealand,NZL,554,current,woah,NEW ZEALAND
+woah::north macedonia (rep. of),North Macedonia,MKD,807,current,woah,NORTH MACEDONIA (REP. OF)
+woah::norway,Norway,NOR,578,current,woah,NORWAY
+woah::portugal,Portugal,PRT,620,current,woah,PORTUGAL
+woah::romania,Romania,ROU,642,current,woah,ROMANIA
+woah::san marino,San Marino,SMR,674,current,woah,SAN MARINO
+woah::senegal,Senegal,SEN,686,current,woah,SENEGAL
+woah::slovakia,Slovakia,SVK,703,current,woah,SLOVAKIA
+woah::slovenia,Slovenia,SVN,705,current,woah,SLOVENIA
+woah::spain,Spain,ESP,724,current,woah,SPAIN
+woah::sri lanka,Sri Lanka,LKA,144,current,woah,SRI LANKA
+woah::st vincent and the grenadines,Saint Vincent and the Grenadines,VCT,670,current,woah,ST VINCENT AND THE GRENADINES
+woah::sweden,Sweden,SWE,752,current,woah,SWEDEN
+woah::switzerland,Switzerland,CHE,756,current,woah,SWITZERLAND
+woah::the netherlands,Netherlands,NLD,528,current,woah,THE NETHERLANDS
+woah::togo,Togo,TGO,768,current,woah,TOGO
+woah::united kingdom,United Kingdom,GBR,826,current,woah,UNITED KINGDOM
+yemen,Yemen,YEM,887,current,generic,Yemen
+zambia,Zambia,ZMB,894,current,generic,Zambia
+zimbabwe,Zimbabwe,ZWE,716,current,generic,Zimbabwe
+

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this workflow or dashboard, please cite the software release and associated paper."
+title: "Human AMR trends in a changing world"
+type: software
+authors:
+  - family-names: Nityadarshini
+    given-names: Neha
+version: 0.7.0
+date-released: 2026-07-23
+license: MIT

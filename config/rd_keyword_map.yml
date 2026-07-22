@@ -1,0 +1,10 @@
+pathogens:
+  Escherichia coli: ["escherichia", "e. coli", "escherichia spp"]
+  Klebsiella pneumoniae: ["klebsiella", "k. pneumoniae", "klebsiella spp"]
+  Acinetobacter baumannii: ["acinetobacter", "a. baumannii", "acinetobacter spp"]
+  Pseudomonas aeruginosa: ["pseudomonas", "p. aeruginosa", "pseudomonas spp"]
+  Staphylococcus aureus: ["staphylococcus aureus", "s. aureus", "mrsa"]
+  Enterococcus faecium: ["enterococcus faecium", "e. faecium", "enterococcus spp"]
+  Streptococcus pneumoniae: ["streptococcus pneumoniae", "s. pneumoniae", "pneumococcus"]
+  Haemophilus influenzae: ["haemophilus influenzae", "h. influenzae"]
+

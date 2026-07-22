@@ -1,0 +1,54 @@
+phase3:
+  locked_date: "2026-07-23"
+  blinded_to_conflict_amr_associations: true
+  primary_outcome_years: [2019, 2024]
+  panel_design: "Endpoint-specific unbalanced panel"
+  rationale: "Retains valid country-years despite staggered ACLED historical coverage and avoids restricting inference to late-entry regions."
+
+primary_model_eligibility:
+  minimum_tested_per_country_year: 30
+  complete_preceding_year_conflict_exposure: true
+  minimum_eligible_years_per_country_endpoint: 3
+  require_within_country_exposure_variation: true
+  country_fixed_effects: true
+  calendar_year_fixed_effects: true
+
+conflict_escalation:
+  screening_window: [2018, 2023]
+  definition:
+    minimum_log2p1_year_on_year_increase: 1.0
+    minimum_absolute_event_increase: 20
+    minimum_within_country_percentile: 75
+  response_index: "First AMR outcome year after the escalation year"
+  status: "Exploratory event-study analysis"
+  reason: "Too few country-endpoint series have adequate pre- and post-escalation outcome coverage for confirmatory inference."
+
+endpoint_lock:
+  confirmatory:
+    - ECO_CAZ_R
+    - KPN_CAZ_R
+    - KPN_MEM_R
+    - ABA_MEM_R
+  secondary_model_eligible:
+    - ECO_MEM_R
+    - PAE_MEM_R
+    - SAU_OXA_R
+    - ECO_CIP_R
+    - KPN_CIP_R
+    - ECO_GEN_R
+    - KPN_GEN_R
+  exploratory_model_eligible:
+    - KPN_COL_R
+  descriptive_only:
+    - ECO_COL_R
+    - EFA_VAN_R
+    - SPN_ERY_R
+    - HIN_AMP_R
+    - GAS_ERY_R
+
+one_health:
+  temperature_role: "Prespecified contextual covariate and effect modifier"
+  livestock_role: "Livestock-system composition modifier"
+  animal_amu_role: "Secondary analysis because country-year coverage is incomplete"
+  complete_case_primary_model: false
+

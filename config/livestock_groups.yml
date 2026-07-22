@@ -1,0 +1,29 @@
+groups:
+  cattle_buffalo:
+    items: [Cattle, Buffalo]
+    livestock_unit_weight: 0.7
+  sheep_goats:
+    items: [Sheep, Goats]
+    livestock_unit_weight: 0.1
+  swine:
+    items: [Swine / pigs]
+    livestock_unit_weight: 0.2
+  poultry:
+    items: [Chickens, Ducks, Geese, Turkeys, Other birds]
+    livestock_unit_weight: 0.01
+  equids:
+    items: [Horses, Asses, Mules and hinnies]
+    livestock_unit_weight: 0.8
+  camels:
+    items: [Camels, Other camelids]
+    livestock_unit_weight: 1.0
+  rabbits_rodents:
+    items: [Rabbits and hares, Other rodents]
+    livestock_unit_weight: 0.02
+excluded_items:
+  - Bees
+notes:
+  - "Weights are transparent analytical conversion factors for sensitivity analyses, not measured biomass."
+  - "Species-group head counts remain the primary livestock-structure variables."
+  - "Equids and minor-species weights are provisional and must be sensitivity-tested before inference."
+

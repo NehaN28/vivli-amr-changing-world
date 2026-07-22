@@ -1,0 +1,31 @@
+project:
+  title: "Human AMR trends in a changing world: geopolitical shocks, One Health determinants and global research investment"
+  protocol_version: "1.0"
+  pipeline_version: "0.7.0"
+  phase1_frozen_date: "2026-07-23"
+
+windows:
+  atlas_full_start: 2004
+  atlas_full_end: 2024
+  primary_outcome_start: 2019
+  primary_outcome_end: 2024
+  primary_exposure_start: 2018
+  primary_exposure_end: 2023
+
+thresholds:
+  minimum_tested_isolates: 5000
+  minimum_resistant_isolates: 200
+  minimum_country_year_cells_n30: 100
+  minimum_countries_with_3_eligible_years: 20
+  minimum_cell_n: 30
+  minimum_usable_calendar_years: 5
+  public_suppression_n: 30
+
+primary_exposure:
+  source: ACLED
+  definition: "log2(1 + annual political-violence events) in the preceding year"
+  transform: log2p1
+  lag_years: 1
+
+country_key: iso3
+missing_values_are_zero: false

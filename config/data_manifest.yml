@@ -1,0 +1,22 @@
+atlas:
+  filename: atlas_vivli_2004_2024.csv
+  format: csv
+  restricted: true
+acled:
+  filename: number_of_political_violence_events_by_country-month-year_as-of-17Jul2026.xlsx
+  format: xlsx
+  sheet: Sheet1
+temperature:
+  filename: Environment_Temperature_change_E_All_Data_(Normalized).csv
+  format: csv
+livestock:
+  filename: Livestock_FAOSTAT_data_en_7-22-2026(2).csv
+  format: csv
+woah:
+  filename: WOAH_consolidated_AMU_2014_2024.xlsx
+  format: xlsx
+rd:
+  filename: ALL PROJECTS WITHOUT FILTER.xlsx
+  format: xlsx
+  sheet: data
+
