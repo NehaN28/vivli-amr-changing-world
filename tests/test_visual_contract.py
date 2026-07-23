@@ -49,6 +49,12 @@ def test_plotly_contract_wraps_titles_and_keeps_labels_inside_canvas():
     assert CHART_CONFIG["responsive"] is True
 
 
+def test_plotly_contract_does_not_create_an_undefined_title():
+    fig = go.Figure(go.Scatter(x=[2020, 2021], y=[1, 2], name="Example"))
+    base_layout(fig)
+    assert fig.layout.title.text is None
+
+
 def test_world_map_has_stable_context_and_compact_colorbar():
     import pandas as pd
 
