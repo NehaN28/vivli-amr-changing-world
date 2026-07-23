@@ -283,19 +283,13 @@ def base_layout(fig: go.Figure, height: int = 470) -> go.Figure:
         trace.showlegend is not False and trace.name not in (None, "")
         for trace in fig.data
     )
-    fig.update_layout(
+    layout = dict(
         height=height,
         margin=dict(l=64, r=32, t=82, b=120 if has_legend else 52),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Arial, sans-serif", color="#31434B"),
         hoverlabel=dict(bgcolor="white", font_size=13),
-        title=dict(
-            text=_wrap_plot_text(title),
-            x=0,
-            xanchor="left",
-            font=dict(size=18),
-        ),
         legend=dict(
             orientation="h",
             yanchor="top",
@@ -307,6 +301,14 @@ def base_layout(fig: go.Figure, height: int = 470) -> go.Figure:
         ),
         hovermode="closest",
     )
+    if title:
+        layout["title"] = dict(
+            text=_wrap_plot_text(title),
+            x=0,
+            xanchor="left",
+            font=dict(size=18),
+        )
+    fig.update_layout(**layout)
     fig.update_xaxes(
         showgrid=False,
         linecolor="#D7E2E0",
