@@ -285,7 +285,7 @@ def base_layout(fig: go.Figure, height: int = 470) -> go.Figure:
     )
     fig.update_layout(
         height=height,
-        margin=dict(l=64, r=32, t=82, b=105 if has_legend else 52),
+        margin=dict(l=64, r=32, t=82, b=120 if has_legend else 52),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Arial, sans-serif", color="#31434B"),
@@ -302,8 +302,6 @@ def base_layout(fig: go.Figure, height: int = 470) -> go.Figure:
             y=-0.16,
             xanchor="left",
             x=0,
-            entrywidth=0.2,
-            entrywidthmode="fraction",
             font=dict(size=11),
             title=dict(font=dict(size=11)),
         ),
