@@ -106,6 +106,8 @@ else:
         col=1,
     )
     fig.update_yaxes(title="Isolates", row=3, col=1)
+    for row in range(1, 4):
+        fig.update_xaxes(showticklabels=True, dtick=1, row=row, col=1)
     fig.update_xaxes(title="Year", row=3, col=1, dtick=1)
     base_layout(fig, 820)
     fig.update_layout(barmode="group")
