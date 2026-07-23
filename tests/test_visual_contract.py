@@ -43,7 +43,9 @@ def test_plotly_contract_wraps_titles_and_keeps_labels_inside_canvas():
     assert fig.layout.yaxis.automargin is True
     assert fig.layout.legend.orientation == "h"
     assert fig.layout.legend.y < 0
-    assert fig.layout.margin.b >= 100
+    assert fig.layout.legend.entrywidth is None
+    assert fig.layout.legend.entrywidthmode is None
+    assert fig.layout.margin.b >= 120
     assert CHART_CONFIG["responsive"] is True
 
 
