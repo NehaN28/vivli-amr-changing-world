@@ -4,12 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "amr-changing-world"
-version = "0.7.1"
+version = "0.8.0"
 description = "Reproducible data pipeline for longitudinal human AMR, conflict, One Health determinants, and R&D investment."
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "Neha Nityadarshini"}]
+authors = [
+  {name = "Neha Nityadarshini"},
+  {name = "Jaya Biswas"},
+]
 dependencies = [
   "numpy>=1.26,<3",
   "openpyxl>=3.1,<4",

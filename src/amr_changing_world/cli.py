@@ -8,6 +8,8 @@ from .pipeline import run_pipeline, validate_sources
 from .phase3 import run_phase3
 from .phase4 import run_phase4
 from .phase5 import run_phase5
+from .phase8 import run_phase8_tables
+from .phase8_analysis import run_phase8_analysis
 
 
 def parser() -> argparse.ArgumentParser:
@@ -29,6 +31,16 @@ def parser() -> argparse.ArgumentParser:
     phase5.add_argument("--processed-dir", required=True, type=Path)
     phase5.add_argument("--phase4-dir", required=True, type=Path)
     phase5.add_argument("--output-dir", required=True, type=Path)
+    phase8 = commands.add_parser(
+        "phase8-tables", help="Build annual disclosure-safe Phase 8 dashboard tables"
+    )
+    phase8.add_argument("--processed-dir", required=True, type=Path)
+    phase8.add_argument("--output-dir", required=True, type=Path)
+    phase8b = commands.add_parser(
+        "phase8-analysis", help="Run exploratory Phase 8 longitudinal analyses"
+    )
+    phase8b.add_argument("--table-dir", required=True, type=Path)
+    phase8b.add_argument("--output-dir", required=True, type=Path)
     return root
 
 
@@ -46,8 +58,12 @@ def main() -> None:
         payload = run_phase4(
             arguments.processed_dir, arguments.output_dir, arguments.bootstrap_replications
         )
-    else:
+    elif arguments.command == "phase5":
         payload = run_phase5(arguments.processed_dir, arguments.phase4_dir, arguments.output_dir)
+    elif arguments.command == "phase8-tables":
+        payload = run_phase8_tables(arguments.processed_dir, arguments.output_dir)
+    else:
+        payload = run_phase8_analysis(arguments.table_dir, arguments.output_dir)
     print(json.dumps(payload, indent=2, default=str))
 
 

@@ -3,6 +3,7 @@ data/interim/*
 data/processed/*
 data/dashboard/*
 !data/dashboard/*.csv.gz
+!data/dashboard/*.parquet
 !data/dashboard/*.json
 !data/dashboard/README.md
 !data/dashboard/SHA256SUMS

@@ -19,7 +19,7 @@ def test_release_versions_are_synchronised():
         citation["version"],
         project["project"]["pipeline_version"],
         __version__,
-    } == {"0.7.1"}
+    } == {"0.8.0"}
 
 
 def test_package_metadata_declares_dashboard_dependencies():

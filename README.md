@@ -1,6 +1,8 @@
 # Human AMR trends in a changing world
 
-Reproducible data pipeline and statistical workflow for the Vivli 2026 AMR Data Challenge project examining longitudinal changes in human antimicrobial resistance following political-violence exposure, with One Health determinants and global AMR R&D investment analysed in prespecified secondary frameworks.
+Reproducible data pipeline, statistical workflow and interactive platform developed for the Vivli AMR Data Challenge 2026. The project examines longitudinal changes in human antimicrobial resistance in relation to political violence, One Health determinants and global AMR R&D investment.
+
+**Project team:** Dr. Neha Nityadarshini (Team Lead) and Dr. Jaya Biswas (Team Member).
 
 ## Scientific scope
 
@@ -86,14 +88,17 @@ Phase 5 fits secondary One Health determinant and conflict-effect-modification m
 
 ## Interactive dashboard
 
-Phase 6 provides a six-page Streamlit application:
+The public Streamlit application provides seven connected pages:
 
-1. Global AMR Explorer
-2. Conflict and AMR
-3. One Health Explorer
-4. R&D Investment Alignment
-5. Country Profile
-6. Methods and Data Quality
+1. Start Here
+2. Global AMR Explorer
+3. Conflict and AMR
+4. One Health Trend Studio
+5. R&D Investment Alignment
+6. Country Profile
+7. Methods and Data Quality
+
+The redesigned application explains the research context before presenting results, supports coverage-first selection across 17 clinically selected endpoints, compares up to five countries over time, and retains complete geographic context in maps. Confirmatory, exploratory and descriptive evidence are explicitly separated.
 
 The application loads only files in `data/dashboard/`. These are aggregated, disclosure-checked outputs suitable for the public interface. Standardised estimates are limited to the four locked primary endpoints. The dashboard never loads raw or isolate-level ATLAS data and does not refit statistical models when filters change.
 
@@ -101,11 +106,11 @@ Run locally with `streamlit run app.py`. See `docs/phase6_run_report.md` for the
 
 ## Public release and deployment
 
-Release `v0.7.0` is prepared for GitHub and Streamlit Community Cloud. The
-publication gate, deployment procedure, rollback steps and post-deployment
-checks are documented in `DEPLOYMENT.md`. Public deployment must not occur
-until the Vivli data-use agreement has been checked to confirm that the
-packaged disclosure-safe derived tables may be redistributed.
+Release `v0.8.0` is the redesigned dashboard candidate for GitHub and
+Streamlit Community Cloud. The publication gate, deployment procedure,
+rollback steps and post-deployment checks are documented in `DEPLOYMENT.md`.
+Permission to redistribute the packaged disclosure-safe derived tables was
+confirmed by the project lead on 23 July 2026.
 
 The public repository must be named `vivli-amr-changing-world`. After the
 repository URL and permanent dashboard URL exist, add them to `CITATION.cff`

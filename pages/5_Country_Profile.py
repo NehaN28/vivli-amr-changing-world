@@ -4,7 +4,10 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from amr_changing_world.dashboard import COLORS, base_layout, dataframe_download, endpoint_label, footer, header, load_csv, setup_page
+from amr_changing_world.dashboard import (
+    COLORS, base_layout, dataframe_download, endpoint_label, footer, header,
+    load_csv, plotly_chart, setup_page,
+)
 
 setup_page("Country Profile", "📍")
 header("Country Profile", "One country, all available evidence", "A concise view of ATLAS coverage, AMR trajectories, political violence, temperature, livestock, animal AMU and recipient research capacity.")
@@ -22,11 +25,11 @@ cols[2].metric("Mean AMR trajectory", f"{r.mean_amr_change_pp_per_year:+.1f} pp/
 cols[3].metric("Context completeness", f"{int(r.context_components_available)}/{int(r.context_components_total)}")
 
 d = amr[amr.country == country].copy()
-d["Outcome"] = d.endpoint_id.map(endpoint_label)
+d["Outcome"] = d.endpoint_id.map(endpoint_label).str.replace(" – ", "<br>", regex=False)
 fig = px.line(d, x="year", y="standardised_resistance_pct", color="Outcome", markers=True, title="Standardised AMR trajectories", labels={"standardised_resistance_pct":"Resistance (%)","year":"Year"}, color_discrete_sequence=px.colors.qualitative.Safe)
 fig.update_yaxes(range=[0,100])
 base_layout(fig, 470)
-st.plotly_chart(fig, width="stretch", config={"displaylogo": False})
+plotly_chart(fig, key="country-amr-trends")
 
 st.subheader("2023 context for 2024 AMR")
 cards = [
