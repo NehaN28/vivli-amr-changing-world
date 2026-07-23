@@ -2,6 +2,28 @@
 
 All notable changes to this project are documented here.
 
+## [0.8.0] - 2026-07-23
+
+### Added
+
+- Longitudinal AMR-One Health tables, annual R&D views and country trajectory summaries.
+- Coverage-first exploration across 17 clinically selected organism-drug endpoints.
+- Multi-country annual trend comparisons and disclosure-safe exploratory lag results.
+- Explanatory landing page with Vivli AMR Data Challenge 2026 context and project-team biographies.
+- Full-context world maps with explicit no-data geography and markers for small geographies.
+
+### Changed
+
+- Reorganised the dashboard into seven self-explanatory pages.
+- Improved responsive layouts, labels, legends, metric cards and empty-data states.
+- Credited Dr. Neha Nityadarshini as Team Lead and Dr. Jaya Biswas as Team Member.
+
+### Scientific status
+
+- The four prespecified confirmatory endpoints and models remain unchanged.
+- New longitudinal analyses are explicitly labelled exploratory or descriptive.
+- Public AMR cells continue to suppress results based on fewer than 30 tested isolates.
+
 ## [0.7.1] - 2026-07-23
 
 ### Fixed

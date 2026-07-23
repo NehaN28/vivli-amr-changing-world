@@ -7,7 +7,8 @@ import streamlit as st
 
 from amr_changing_world.dashboard import (
     COLORS, ENDPOINTS, PRIMARY_IDS, base_layout, dataframe_download, endpoint_label,
-    endpoint_options, footer, header, load_csv, no_data, setup_page,
+    footer, header, load_csv, load_table, no_data, plotly_chart, setup_page,
+    world_choropleth,
 )
 
 setup_page("Global AMR Explorer", "🌍")
@@ -19,14 +20,30 @@ header(
 
 dashboard = load_csv("amr_country_year.csv.gz")
 standard = load_csv("standardised_amr.csv.gz")
+coverage = load_table("endpoint_coverage")
+
+coverage["selector"] = coverage.apply(
+    lambda r: (
+        f"{r.species} – {r.drug} · {r.analysis_tier} · "
+        f"{int(r.eligible_tested_isolates):,} isolates"
+    ),
+    axis=1,
+)
+coverage = coverage.sort_values(
+    ["analysis_tier", "eligible_tested_isolates"],
+    ascending=[True, False],
+)
 
 with st.sidebar:
-    st.header("Explore")
-    organism = st.selectbox("Pathogen", sorted(dashboard["species"].dropna().unique()))
-    organism_rows = dashboard[dashboard["species"] == organism]
-    drugs = sorted(organism_rows["drug"].dropna().unique())
-    drug = st.selectbox("Antimicrobial", drugs)
-    eid = organism_rows.loc[organism_rows["drug"] == drug, "endpoint_id"].iloc[0]
+    st.header("Choose an endpoint")
+    chosen = st.selectbox(
+        "Organism–antimicrobial phenotype",
+        coverage["selector"],
+        index=int(coverage.reset_index(drop=True)["endpoint_id"].eq("ECO_CAZ_R").idxmax()),
+        help="Coverage is shown before selection so a sparse recent snapshot is not mistaken for a small source dataset.",
+    )
+    endpoint_row = coverage.loc[coverage.selector.eq(chosen)].iloc[0]
+    eid = endpoint_row.endpoint_id
     tier = ENDPOINTS[eid][2]
     estimate_choices = ["Crude"] + (["Standardised"] if eid in PRIMARY_IDS else [])
     estimate = st.radio("Estimate", estimate_choices, horizontal=True)
@@ -39,6 +56,13 @@ with st.sidebar:
 
 st.markdown(f'<span class="tier">{tier} outcome</span>', unsafe_allow_html=True)
 st.subheader(endpoint_label(eid))
+with st.expander("Why this endpoint is included and how much data support it", expanded=True):
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Eligible isolates", f"{int(endpoint_row.eligible_tested_isolates):,}")
+    c2.metric("Countries", f"{int(endpoint_row.eligible_countries)}")
+    c3.metric("Country-years", f"{int(endpoint_row.eligible_country_year_cells):,}")
+    c4.metric("Time span", f"{int(endpoint_row.first_eligible_year)}–{int(endpoint_row.last_eligible_year)}")
+    st.caption(f"{endpoint_row.phenotype}. {endpoint_row.inclusion_reason}")
 
 if estimate == "Standardised":
     df = standard[(standard.endpoint_id == eid) & standard.year.between(*year_range)].copy()
@@ -59,19 +83,22 @@ else:
     c4.metric("Median resistance", f"{latest[value].median():.1f}%")
 
     map_df = latest.dropna(subset=[value])
-    fig = px.choropleth(
-        map_df, locations="iso3", color=value, hover_name="country",
-        hover_data={"iso3": False, value: ":.1f", "n_tested": ":,.0f"},
-        color_continuous_scale=["#E7F1EF", "#65AFA7", "#D39A35", "#B5483D"],
-        range_color=(0, 100), labels={value: "Resistance (%)", "n_tested": "Tested"},
-        title=f"Resistance in {latest_year}",
+    fig = world_choropleth(
+        map_df, value, f"Resistance in {latest_year}", "Resistance (%)",
+        range_color=(0, 100),
+        colorscale=["#F4F7F6", "#65AFA7", "#D39A35", "#B5483D"],
+        hover_data={"n_tested": True},
     )
-    fig.update_geos(showframe=False, showcoastlines=False, bgcolor="rgba(0,0,0,0)", projection_type="natural earth")
-    base_layout(fig, 500)
-    st.plotly_chart(fig, width="stretch", config={"displaylogo": False})
+    plotly_chart(fig, key="global-map")
+    st.caption("Grey countries have no disclosure-eligible estimate for this endpoint and year. The world viewport remains fixed across selections.")
 
     countries = sorted(df.country.unique())
-    selected = st.multiselect("Compare countries", countries, default=countries[:1], max_selections=6)
+    selected = st.multiselect(
+        "Compare countries (maximum five)",
+        countries,
+        default=countries[:1],
+        max_selections=5,
+    )
     if selected:
         trend = df[df.country.isin(selected)]
         fig = px.line(trend, x="year", y=value, color="country", markers=True,
@@ -84,7 +111,7 @@ else:
                 fig.add_trace(go.Scatter(x=d.year, y=d.standardised_ci_low, mode="lines", line=dict(width=0), fill="tonexty", fillcolor="rgba(15,118,110,.08)", showlegend=False, hoverinfo="skip"))
         base_layout(fig)
         fig.update_yaxes(range=[0, 100])
-        st.plotly_chart(fig, width="stretch", config={"displaylogo": False})
+        plotly_chart(fig, key="global-country-trends")
 
     table_cols = ["country", "iso3", "year", "n_tested", "n_resistant", value]
     if estimate == "Standardised": table_cols += ["standardised_ci_low", "standardised_ci_high"]

@@ -2,12 +2,14 @@
 
 import streamlit as st
 
-from amr_changing_world.dashboard import excel_bytes, footer, header, load_csv, setup_page
+from amr_changing_world.dashboard import (
+    excel_bytes, footer, header, load_csv, load_table, setup_page,
+)
 
 setup_page("Methods and Data Quality", "📘")
 header("Methods and Data Quality", "How to read this dashboard", "Definitions, inclusion rules, statistical methods, limitations and downloadable disclosure-safe results.")
 
-tabs = st.tabs(["Study design", "Outcomes", "Models", "Data quality", "Limitations", "Downloads"])
+tabs = st.tabs(["Study design", "Outcomes", "Models", "Longitudinal explorer", "Data quality", "Limitations", "Downloads"])
 with tabs[0]:
     st.subheader("Design")
     st.write("Longitudinal ecological analysis of human clinical isolates linked by country and year to political violence, temperature, livestock structure, animal antimicrobial use and AMR R&D investment.")
@@ -32,6 +34,17 @@ with tabs[2]:
     st.write("Primary associations were estimated using isolate-level logistic regression with country and calendar-year fixed effects and country-clustered uncertainty. Models adjusted for age group, sex, specimen group and clinical specialty. Holm correction covered the four confirmatory coefficients.")
     st.write("Country-year standardised resistance was derived using partially pooled models, holding patient and specimen composition to a common distribution while retaining each country-year's calendar year. Phase 5 models are secondary or exploratory and use family-specific FDR correction.")
 with tabs[3]:
+    st.subheader("Phase 8 exploratory eligibility")
+    st.markdown("""
+    - Country trend: at least **5 observed years**
+    - Descriptive change-point candidate: at least **8 years**, with at least 3 observations on each side
+    - One Health lag model: at least **40 paired country-years** and **10 countries**
+    - Lags examined: same year, **1 year** and **2 years**
+    - Multiple testing: Benjamini–Hochberg FDR across **144** lag models
+    - Country slopes use isolate-count-weighted annual resistance percentages
+    """)
+    st.info("Trajectory classes describe the direction and uncertainty of a linear trend. They are not forecasts or population-prevalence estimates. Change-point candidates are navigation aids, not formal significance tests.")
+with tabs[4]:
     st.subheader("Built-in safeguards")
     st.markdown("""
     - MIC inequalities retained as censoring bounds
@@ -43,19 +56,19 @@ with tabs[3]:
     - R&D projects deduplicated and fractionally allocated across categories
     - Dashboard tables originate from the same pipeline as manuscript results
     """)
-with tabs[4]:
+with tabs[5]:
     st.subheader("Important limitations")
     st.markdown("""
     - Clinical isolate surveillance is not population-representative.
     - Residual confounding, changing testing practices and selection into surveillance remain possible.
     - Country-year ecological relationships cannot identify patient-level mechanisms.
     - ACLED events measure recorded political violence, not the full humanitarian impact of conflict.
-    - WOAH animal-AMU coverage is limited to 6–14 countries in modelled subsets.
+    - Animal-AMU data provide the weakest linked coverage: 376 country-years across 57 countries; formal model subsets are smaller.
     - Livestock totals are not density measures because population or land denominators were unavailable.
     - Recipient-institution country is not necessarily the research site or beneficiary country.
     - A non-significant result is not proof of no effect.
     """)
-with tabs[5]:
+with tabs[6]:
     st.subheader("Disclosure-safe downloads")
     files = {
         "Standardised AMR": load_csv("standardised_amr.csv.gz"),
@@ -64,6 +77,12 @@ with tabs[5]:
         "One Health models": load_csv("one_health_models.csv.gz"),
         "WOAH models": load_csv("woah_models.csv.gz"),
         "R&D pathogen alignment": load_csv("rd_pathogen.csv.gz"),
+        "Endpoint coverage": load_table("endpoint_coverage"),
+        "Annual One Health trends": load_table("one_health_country_year"),
+        "Annual R&D portfolio": load_table("rd_annual_portfolio"),
+        "Country trajectories": load_table("country_trends"),
+        "One Health lag models": load_table("lag_associations"),
+        "Data coverage": load_table("coverage_summary"),
     }
     st.download_button("Download core results workbook", excel_bytes(files), file_name="AMR_changing_world_dashboard_results.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
     st.caption("The workbook contains aggregated estimates and model results only. Restricted isolate-level data are not included.")

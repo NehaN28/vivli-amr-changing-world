@@ -7,7 +7,7 @@ import streamlit as st
 
 from amr_changing_world.dashboard import (
     COLORS, PRIMARY_IDS, base_layout, dataframe_download, endpoint_label,
-    endpoint_options, footer, header, load_csv, no_data, setup_page,
+    endpoint_options, footer, header, load_csv, no_data, plotly_chart, setup_page,
 )
 
 setup_page("Conflict and AMR", "⚖️")
@@ -45,7 +45,7 @@ with left:
         fig.update_xaxes(title="AMR outcome year")
         fig.update_layout(title=f"{country}: aligned annual timeline")
         base_layout(fig, 500)
-        st.plotly_chart(fig, width="stretch", config={"displaylogo": False})
+        plotly_chart(fig, key="conflict-timeline")
 with right:
     st.subheader("Model estimate")
     row = models[models.endpoint_id == eid].iloc[0]
@@ -57,13 +57,13 @@ with right:
 
 st.subheader("Confirmatory estimates")
 plot = models.sort_values("or_per_doubling_1plus_events").copy()
-plot["label"] = plot.endpoint_id.map(endpoint_label)
+plot["label"] = plot.endpoint_id.map(endpoint_label).str.replace(" – ", "<br>", regex=False)
 fig = go.Figure()
 fig.add_vline(x=1, line_dash="dash", line_color="#7C8B92")
 fig.add_trace(go.Scatter(x=plot.or_per_doubling_1plus_events, y=plot.label, mode="markers", marker=dict(size=11, color=COLORS["teal"]), error_x=dict(type="data", symmetric=False, array=plot.or_ci_high-plot.or_per_doubling_1plus_events, arrayminus=plot.or_per_doubling_1plus_events-plot.or_ci_low), hovertemplate="OR %{x:.3f}<extra></extra>"))
 fig.update_xaxes(title="Adjusted odds ratio per exposure doubling")
 base_layout(fig, 330)
-st.plotly_chart(fig, width="stretch", config={"displaylogo": False})
+plotly_chart(fig, key="conflict-estimates")
 
 with st.expander("Exploratory escalation trajectories"):
     st.caption("Only 17 minimally usable endpoint-windows across five countries were available. These are descriptive, not pooled causal estimates.")
