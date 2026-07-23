@@ -33,11 +33,16 @@ dimension_label = st.selectbox("Group annual investment by", list(available_dime
 dimension = available_dimensions[dimension_label]
 subset = portfolio[portfolio.dimension.eq(dimension)].copy()
 categories = subset.groupby("category").reported_commitment_usd.sum(min_count=1).sort_values(ascending=False).index.tolist()
+category_labels = {
+    category: str(category).replace("_", " ").strip()
+    for category in categories
+}
 selected_categories = st.multiselect(
     f"Compare {dimension_label.lower()} categories",
     categories,
     default=categories[: min(5, len(categories))],
     max_selections=8,
+    format_func=lambda category: category_labels.get(category, str(category)),
 )
 
 metric_label = st.radio(
@@ -51,7 +56,9 @@ trend = subset[subset.category.isin(selected_categories)].dropna(subset=[metric]
 if trend.empty:
     no_data()
 else:
-    trend["display_category"] = trend["category"].str.wrap(28).str.replace("\n", "<br>")
+    trend["display_category"] = (
+        trend["category"].map(category_labels).str.wrap(28).str.replace("\n", "<br>")
+    )
     fig = px.line(
         trend, x="year", y=metric, color="display_category", markers=True,
         labels={
@@ -69,6 +76,9 @@ else:
     plotly_chart(fig, key="rd-portfolio-trends")
     st.caption("Amounts are shown only where a commitment was reported. A low annual total can reflect missing amount data as well as lower investment.")
 
+geography = geography[
+    geography.country.notna() & geography.country.astype(str).str.strip().ne("")
+].copy()
 country_totals = geography.groupby("country").reported_commitment_usd.sum(min_count=1).sort_values(ascending=False)
 country_options = country_totals.index.tolist()
 selected_countries = st.multiselect(
